@@ -1,0 +1,17 @@
+<default>
+	  <prerequisites>
+                    <tag type="Software" />
+	  </prerequisites>
+          <info>
+                    <author>a.k.a. Uchkun</author>
+                    <name>Extra Channel Selection</name>
+                    <packagename>enigma2-plugin-systemplugins-extrachannelselection</packagename>
+                    <shortdescription>Extra Channel Selection</shortdescription>
+                    <description>The creation of an entirely new channel list</description>
+                    <screenshot/>
+          </info>
+
+	  <files type="package"> <!-- without version, without .ipk -->
+		<file type="package" name="enigma2-plugin-systemplugins-extrachannelselection" />
+	  </files>
+</default>

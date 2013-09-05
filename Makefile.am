@@ -26,6 +26,7 @@ SUBDIRS = \
 	epgrefresh \
 	epgsearch \
 	eurotictv \
+	extrachannelselection \
 	filebrowser \
 	fritzcall \
 	fstabeditor \

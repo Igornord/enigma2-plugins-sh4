@@ -198,6 +198,14 @@ eurotictv/meta/Makefile
 eurotictv/po/Makefile
 eurotictv/src/Makefile
 
+extrachannelselection/Makefile
+extrachannelselection/meta/Makefile
+extrachannelselection/po/Makefile
+extrachannelselection/src/Makefile
+extrachannelselection/src/components/Makefile
+extrachannelselection/src/images/Makefile
+extrachannelselection/src/screens/Makefile
+
 filebrowser/Makefile
 filebrowser/meta/Makefile
 filebrowser/src/Makefile

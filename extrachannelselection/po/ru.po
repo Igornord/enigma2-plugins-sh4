@@ -1,0 +1,765 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ExtraChannelSelection\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-16 01:13+0100\n"
+"PO-Revision-Date: 2013-07-13 12:17+0500\n"
+"Last-Translator: aka Uchkun <madamin2007@mail.ru>\n"
+"Language-Team: a.k.a. Uchkun\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Language: ru_RU\n"
+"X-Generator: Poedit 1.5.5\n"
+
+msgid "Settings of service list on channel selection"
+msgstr "Добавляем проценты в список каналов"
+
+msgid "ExtraChannelSelection - Version: %s"
+msgstr "Меняем селектор каналов - Версия: %s"
+
+msgid "ExtraChannelSelection settings"
+msgstr "Настройки экстра-списка каналов"
+
+msgid "ExtraChannelSelection Enabled"
+msgstr "Включить плагин"
+
+msgid "ProgressBar Type"
+msgstr "Настройки ПрогрессБара"
+
+msgid "Eventview type"
+msgstr "Настройки события"
+
+msgid "Percent Type"
+msgstr "Тип показа процентов"
+
+msgid "Without ProgressBar"
+msgstr "Отключить ПрогрессБар"
+
+msgid "Dark blue pixmap"
+msgstr "Темно-синий Бар"
+
+msgid "Dark green pixmap"
+msgstr "Зеленый Бар"
+
+msgid "Red pixmap"
+msgstr "Вишневый Бар"
+
+msgid "Striped blue pixmap"
+msgstr "Синеватый Бар"
+
+msgid "Bright yellow pixmap"
+msgstr "Ярко-желтый Бар"
+
+msgid "Black pixmap"
+msgstr "Черный Бар"
+
+msgid "Light blue pixmap"
+msgstr "Светло-голубой Бар"
+
+msgid "Varicoloured pixmap"
+msgstr "Разноцветный Бар"
+
+msgid "Versicolor pixmap"
+msgstr "Полосатый Бар"
+
+msgid "Dark yellow pixmap"
+msgstr "Оранжевый Бар"
+
+msgid "Light green pixmap"
+msgstr "Светло-зеленый Бар"
+
+msgid "Without Percent"
+msgstr "Отключить проценты"
+
+msgid "Percent without brackets"
+msgstr "Проценты без скобок"
+
+msgid "Percent in brackets"
+msgstr "Проценты в скобках"
+
+msgid "Event without brackets"
+msgstr "Событие без скобок"
+
+msgid "Event in brackets"
+msgstr "Событие в скобках"
+
+msgid "Event through a dash"
+msgstr "Событие через тире"
+
+msgid "ExtraChannelSelectionSetup"
+msgstr "Плагин ExtraChannelSelection"
+
+msgid "Author: a.k.a. Uchkun (c)"
+msgstr "a.k.a. Учкун (c) 2013"
+
+msgid "on left"
+msgstr "Слева"
+
+msgid "on right"
+msgstr "Справа"
+
+msgid "Enable double-click OK"
+msgstr "Включить двойное нажатие ОК"
+
+msgid "The text in the absence of an event"
+msgstr "Показать текст об отсутствии ЕПГ"
+
+msgid "Show picon"
+msgstr "Включить показ пиконов"
+
+msgid "Picon location"
+msgstr "Расположение пиконов"
+
+msgid "Doubleline channellist"
+msgstr "Двухрядный список каналов"
+
+msgid "Color for this text"
+msgstr "Цвет текста об отсутствии ЕПГ"
+
+msgid "Orange"
+msgstr "Оранжевый"
+
+msgid "Denim color"
+msgstr "Джинсовый"
+
+msgid "Gray"
+msgstr "Серый"
+
+msgid "Dark slate gray"
+msgstr "Темно-серый"
+
+msgid "Blue-green"
+msgstr "Сине-зеленый"
+
+msgid "Cyan"
+msgstr "Голубой"
+
+msgid "Midnight blue"
+msgstr "Темно-синий"
+
+msgid "Steel Blue"
+msgstr "Цвет синей стали"
+
+msgid "Green"
+msgstr "Зеленый"
+
+msgid "Silver"
+msgstr "Серебристый"
+
+msgid "Aquamarine"
+msgstr "Цвет морской волны"
+
+msgid "Yellow"
+msgstr "Желтый"
+
+msgid "Red"
+msgstr "Красный"
+
+msgid "Purple"
+msgstr "Фиолетовый"
+
+msgid "White"
+msgstr "Белый"
+
+msgid "Blue"
+msgstr "Синий"
+
+msgid "Saddle Brown"
+msgstr "Коричневый"
+
+msgid "Crimson"
+msgstr "Малиновый"
+
+msgid "Dim Gray"
+msgstr "Темно-серый"
+
+msgid "Tan"
+msgstr "Хаки"
+
+msgid "Sea green"
+msgstr "Морской зеленый"
+
+msgid "Pink"
+msgstr "Розовый"
+
+msgid "Medium orchid"
+msgstr "Цвет орхидеи"
+
+msgid "Indian red"
+msgstr "Каштановый"
+
+msgid "Antique white"
+msgstr "Античный белый"
+
+msgid "Light green"
+msgstr "Светло-зеленый"
+
+msgid "Indigo"
+msgstr "Индиго"
+
+msgid "Dark Green"
+msgstr "Темно-зеленый"
+
+msgid "Dark olive"
+msgstr "Темно-оливковый"
+
+msgid "Color from skin"
+msgstr "Цвет из скина"
+
+msgid "ProgressBar with color"
+msgstr "Цветной Бар"
+
+msgid "ProgressBar with pixmap"
+msgstr "Бар с картинкой"
+
+msgid "Pixmap from skin"
+msgstr "Картинка из скина"
+
+msgid "Color for Bar"
+msgstr "Цвет прогрессбара"
+
+msgid "Color for selected Bar"
+msgstr "Цвет прогрессбара при выборе"
+
+msgid "Pixmap for Bar"
+msgstr "Цвет картинки прогрессбара"
+
+msgid "Color for selected BarBorder"
+msgstr "Цвет граней Бара при выборе"
+
+msgid "Color for BarBorder"
+msgstr "Цвет граней Бара"
+
+msgid "Color for Satlist"
+msgstr "Цвет списка спутников"
+
+msgid "Color for selected Satlist"
+msgstr "Цвет списка спутников при выборе"
+
+msgid "Colors of elements from a skin"
+msgstr "Цвет элементов из скина"
+
+msgid "Color for number"
+msgstr "Цвет номера канала"
+
+msgid "Color for number when selected"
+msgstr "Цвет номера канала при выборе"
+
+msgid "Color for Service Name"
+msgstr "Цвет названия канала"
+
+msgid "Color for Service Name when selected"
+msgstr "Цвет названия канала при выборе"
+
+msgid "Color for percent"
+msgstr "Цвет процентов"
+
+msgid "Color for percent when selected"
+msgstr "Цвет процентов при выборе"
+
+msgid "Color for event"
+msgstr "Цвет названия передачи"
+
+msgid "Color for event when selected"
+msgstr "Цвет названия передачи при выборе"
+
+msgid "Start-end Color"
+msgstr "Цвет начала-окончания"
+
+msgid "Start-end Color when selected"
+msgstr "Цвет начала-окончания при выборе"
+
+msgid "Color for remaining time"
+msgstr "Цвет оставшегося времени"
+
+msgid "Color for remaining time when selected"
+msgstr "Цвет оставшегося времени при выборе"
+
+msgid "only minutes"
+msgstr "В минутах"
+
+msgid "hours and minutes"
+msgstr "Часы и минуты"
+
+msgid "Bar on left"
+msgstr "Прогрессбар слева"
+
+msgid "Bar on right"
+msgstr "Прогрессбар справа"
+
+msgid "Percent on left"
+msgstr "Проценты слева"
+
+msgid "Percent on right"
+msgstr "Процент справа"
+
+msgid "Without Bar"
+msgstr "Отключить прогрессбар"
+
+msgid "Bar or percent position"
+msgstr "Позиция Бара и процентов"
+
+msgid "Show channel number"
+msgstr "Показать номер канала"
+
+msgid "Remaining time type"
+msgstr "Тип оставшегося времени"
+
+msgid "Bar and percent together"
+msgstr "Прогрессбар и проценты вместе"
+
+msgid "Percent location"
+msgstr "Расположение процентов"
+
+msgid "Font-size Number"
+msgstr "Размер шрифта номера канала"
+
+msgid "Font-size Service Name"
+msgstr "Размер шрифта имени канала"
+
+msgid "Font-size Percent"
+msgstr "Размер шрифта процентов"
+
+msgid "Font-size Event"
+msgstr "Размер шрифта названия передачи"
+
+msgid "Font-size Remain"
+msgstr "Размер шрифта оставшегося времени"
+
+msgid "Font-size Start-End"
+msgstr "Размер шрифта начала-окончания"
+
+msgid "Font-size Text"
+msgstr "Размер шрифта текста"
+
+msgid "Font-size Sat & Prov"
+msgstr "Размер шрифта спутников и провайдеров"
+
+msgid "Size from skin"
+msgstr "Размер из скина"
+
+msgid "yes"
+msgstr "да"
+
+msgid "no"
+msgstr "нет"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Change EPG window"
+msgstr "Изменить окно телегида"
+
+msgid "Without remain"
+msgstr "Отключить"
+
+msgid "Start-end time enabled"
+msgstr "Показать время начала-окончания"
+
+msgid "Type of display of icons"
+msgstr "Тип показа иконок"
+
+msgid "Without icon"
+msgstr "Не показывать"
+
+msgid "At the beginning"
+msgstr "В начале строки"
+
+msgid "After the servicename"
+msgstr "После названия канала"
+
+msgid "Black"
+msgstr "Черный"
+
+msgid "Black light"
+msgstr "Светло-черный"
+
+msgid "Dark blue"
+msgstr "Темно-голубой"
+
+msgid "Navy blue"
+msgstr "Темно-синий"
+
+msgid "Info"
+msgstr "Информация"
+
+msgid "Plugin History"
+msgstr "История плагина"
+
+msgid ""
+"Author: a.k.a. Uchkun (c).\n"
+"\n"
+"Special thanks to Nikolasi for saved time for the\n"
+"derivation of Picon.\n"
+"\n"
+"The idea of the plugin was born in autumn 2012 in\n"
+"the study of the source listboxservice.cpp.\n"
+"It has become clear that it is achievable.\n"
+"A designer multicontent own even novice programmers\n"
+"to Enigma.\n"
+"\n"
+"Purses for transfers:\n"
+"WebMoney\n"
+"Z108027892539\n"
+"R325825136282"
+msgstr ""
+"Автор: ака Учкун (с) 2013.\n"
+"\n"
+"Специальная благодарность Nikolasi за сэкономленное\n"
+"мною время при выводе пиконов.\n"
+"\n"
+"Идея плагина родилась осенью 2012 года при изучении\n"
+"исходников listboxservice.cpp.\n"
+"Стало ясно, что это достижимо.\n"
+"А конструктором мультиконтент владеют даже\n"
+"начинающие программисты на Энигме.\n"
+"\n"
+"Кошельки для переводов (если есть желание помочь):\n"
+"WebMoney\n"
+"Z108027892539\n"
+"R325825136282"
+
+msgid ""
+"Enable or disable the plugin. Plugin's menu is dynamic. When open any items, "
+"other items opened or closed. Restart required."
+msgstr ""
+"Включение и отключение плагина. Меню плагина выполнено динамически "
+"раскрываемым-закрываемым. То есть в зависимости от настроек при раскрытии "
+"некоторых пунктов другие пункты раскрываются или закрываются и наоборот. "
+"Требуется перезагрузка."
+
+msgid ""
+"When enabled, double tap OK in the channel list is working. First press - "
+"show channel in the PIG, the second press - close channel list. Restart "
+"required."
+msgstr ""
+"При включении заработает двойное нажатие ОК в списке каналов. Первое нажатие "
+"- показ канала в PIG-окне, второе нажатие - закрытие списка каналов. "
+"Требуется перезагрузка."
+
+msgid ""
+"When enabled, if EPG from TV Guide is not available, will be shown static "
+"text - 'No EPG data available'. No restart required."
+msgstr ""
+"Если включено, при отсутствии информации от телегида вместо ЕПГ будет "
+"показан статический текст - 'Информация телегида отсутствует'. Применяется "
+"без перезагрузки."
+
+msgid ""
+"Color selection for the above text - 'No EPG data available'. No restart "
+"required."
+msgstr ""
+"Выбор цвета для вышеуказанного текста - 'Информация телегида отсутствует'. "
+"Применяется без перезагрузки."
+
+msgid ""
+"When enabled, each channel in the selector will occupy two lines with "
+"additional information, and advanced settings for double-row configuration "
+"will appear in the menu, and vice versa, settings for only single-row "
+"configuration on the channel list will disappear. Restart required."
+msgstr ""
+"Если включено, каждый канал в селекторе будет занимать две строки с "
+"дополнительной информацией, а также в меню появятся дополнительные настройки "
+"и наоборот, настройки касающиеся только однорядного списка каналов исчезнут. "
+"Требуется перезагрузка."
+
+msgid ""
+"Showing percent above the progressbar to saving space in the channel list. "
+"It is necessary to configure the location of percent and location of "
+"progressbar at one side - at the left side or at the right side for both. "
+"Location percent set in the same menu in item 'Percent location' and the "
+"progressbar in the settings of the image 'Main Menu-Settings-System-User "
+"Interface-Progressbar Type'. No restart required."
+msgstr ""
+"Показ процентов над прогрессбаром, чтобы освободить место в списке каналов. "
+"Далее нужно будет настроить расположение и процентов и прогрессбара в одной "
+"стороне, оба слева или оба справа. Местоположение процентов настраивается в "
+"этом же меню в пункте 'Расположение процентов', а прогрессбара в настройках "
+"самого имиджа 'Главное меню-Настройки-Система-Интерфейс пользователя-Тип "
+"показа прогрессбара'. Применяется без перезагрузки."
+
+msgid ""
+"Configure the location of percent - at the left or at the right side. Keep "
+"in mind, if you have included on the previous item 'Bar and percent "
+"together', then will need to put a progressbar in the same side in the "
+"settings of the image in the user interface. No restart required."
+msgstr ""
+"Настройка местоположения процентов - слева или справа. Имейте ввиду, если "
+"включили предыдущий пункт 'Проценты и прогрессбар вместе', нужно будет и "
+"прогрессбар поставить в этой же стороне в настройках имиджа в интерфейсе "
+"пользователя. Применяется без перезагрузки."
+
+msgid ""
+"Select the type of display the time remaining in the double-row list of "
+"channels. Two types, number of minutes or hours with minutes. No restart "
+"required."
+msgstr ""
+"Выберите тип отображения оставшегося времени в двухрядном списке каналов. "
+"Либо количество минут, либо в часах и минутах. Применяется без перезагрузки."
+
+msgid ""
+"When enabled, In the double-row channel list will be displayed start-time "
+"and end-time of event. No restart required."
+msgstr ""
+"Если включено, в двухрядном списке каналов будет отображаться время начала и "
+"окончания передачи. Применяется без перезагрузки."
+
+msgid ""
+"'ProgressBar with color' means that you will need to choose the color for "
+"progressbar. At a choice of this option, be convinced that in the skin.xml a "
+"certain picture isn't applied to the cursor. 'ProgressBar with pixmap' means "
+"that you will need to choose a pixmap as a progressbar. In the version with "
+"the picture color will turn richer and brighter. No restart required."
+msgstr ""
+"Цветной бар означает, что нужно будет выбрать цвет отображения прогрессбара. "
+"Если в текущем skin.xml применена картинка для отображения полоски под "
+"курсором, то этот вариант выбирать не стоит. Вариант бара из картинки "
+"означает, что нужно будет выбрать цветную картинку в качестве прогрессбара. "
+"В этом варианте цвета получатся насыщеннее и ярче. Применяется без "
+"перезагрузки."
+
+msgid ""
+"Choose a color to the progressbar. Valid only if you select the 'ProgressBar "
+"with color'. No restart required."
+msgstr ""
+"Выбор цвета для прогрессбара. Действует только при выборе опции 'Цветной "
+"бар'. Применяется без перезагрузки."
+
+msgid ""
+"Choose a color to the progressbar, when it selected. Valid only if you "
+"select the 'ProgressBar with color'. No restart required."
+msgstr ""
+"Выбор цвета для прогрессбара на выбранной строчке. Действует только при "
+"выборе опции 'Цветной бар'. Применяется без перезагрузки."
+
+msgid ""
+"Choose a pixmap to the progressbar. Valid only if you select the "
+"'ProgressBar with pixmap'. No restart required."
+msgstr ""
+"Выбор цветной картинки для прогрессбара. Действует только при выборе опции "
+"'Бар с картинкой'. Применяется без перезагрузки."
+
+msgid ""
+"Choose a color to the border of progressbar, when it selected. Valid only if "
+"you select the 'ProgressBar with pixmap'. No restart required."
+msgstr ""
+"Выбор цвета для граней прогрессбара на выбранной строчке. Действует только "
+"при выборе опции 'Бар с картинкой'. Применяется без перезагрузки."
+
+msgid "Choose a color to the border of progressbar. No restart required."
+msgstr "Выбор цвета для граней прогрессбара. Применяется без перезагрузки."
+
+msgid "Choose a color to the satlist and providerlist. No restart required."
+msgstr ""
+"Выбор цвета для списка спутников и списка провайдеров. Применяется без "
+"перезагрузки."
+
+msgid ""
+"Choose a color to the satlist and providerlist, when it selected. No restart "
+"required."
+msgstr ""
+"Выбор цвета для списка спутников и списка провайдеров на выбранной строчке. "
+"Применяется без перезагрузки."
+
+msgid ""
+"Select the type of display of percent. In brackets or without brackets, or "
+"you can disable display of percent. No restart required."
+msgstr ""
+"Выберите тип отображения процентов. В скобках или без скобок, либо можете "
+"отключить показ процентов. Применяется без перезагрузки."
+
+msgid ""
+"Select the type of display the name of the event. In brackets or without "
+"brackets, or through a dash. No restart required."
+msgstr ""
+"Выберите тип отображения названия передачи. В скобках или без скобок, либо "
+"через тире. Применяется без перезагрузки."
+
+msgid ""
+"Specify whether or not to show picons in the channel list. No restart "
+"required."
+msgstr ""
+"Укажите, показывать или не показывать пиконы в списке каналов. Применяется "
+"без перезагрузки."
+
+msgid ""
+"Configure the location of picons - at the left or at the right side in the "
+"channel list. No restart required."
+msgstr ""
+"Настройка местоположения пиконов - слева или справа в списке каналов. "
+"Применяется без перезагрузки."
+
+msgid ""
+"If you choose 'yes', a plug-in will try to choose colors for elements of the "
+"list of channels from settings of the current skin. Some colors in a skin "
+"can be not set. Also there are elements for which colors in skins aren't set "
+"in general. To these cases, default colors will be applied. If you choose "
+"'no', further will it is necessary to adjust colors for all elements. No "
+"restart required."
+msgstr ""
+"Если выберете 'да', плагин попытается выбрать цвета для элементов списка "
+"каналов из настроек текущего скина. Некоторые цвета в скине могут быть не "
+"заданы. Также есть элементы, для которых цвета в скинах не задаются вообще. "
+"Для этих случаев будут применены дефолтные цвета. Если выберете 'нет', далее "
+"нужно будут настроить цвета для всех элементов. Применяется без перезагрузки."
+
+msgid "Select a font size for the number of channel. No restart required."
+msgstr ""
+"Выберите размер шрифта для номера канала. Применяется без перезагрузки."
+
+msgid "Select a font size for the percent. No restart required."
+msgstr "Выберите размер шрифта для процентов. Применяется без перезагрузки."
+
+msgid "Select a font size for the Service Name. No restart required."
+msgstr ""
+"Выберите размер шрифта для названия канала. Применяется без перезагрузки."
+
+msgid "Select a font size for the Event. No restart required."
+msgstr ""
+"Выберите размер шрифта для названия передачи. Применяется без перезагрузки."
+
+msgid ""
+"Select a font size for the start- and end- time for event in the double-row "
+"list of channels. No restart required."
+msgstr ""
+"Выберите размер шрифта для времени начала-окончания события в двухрядном "
+"списке каналов. Применяется без перезагрузки."
+
+msgid ""
+"Select a font size for the remaining time for event in the double-row list "
+"of channels. No restart required."
+msgstr ""
+"Выберите размер шрифта для оставшегося времени в двухрядном списке каналов. "
+"Применяется без перезагрузки."
+
+msgid ""
+"Select a font size for the text - 'No EPG data available'. No restart "
+"required."
+msgstr ""
+"Выберите размер шрифта для текста - 'Информация телегида отсутствует'. "
+"Применяется без перезагрузки."
+
+msgid ""
+"Select a font size for the satlist and providerlist. No restart required."
+msgstr ""
+"Выберите размер шрифта для списка спутников и списка провайдеров. "
+"Применяется без перезагрузки."
+
+msgid ""
+"If enabled, the usual guide (Eventview) present in the image will be "
+"replaced by an extended program guide. The new TV guide with more "
+"information and more colorful. Restart required."
+msgstr ""
+"Если включено, обычный телегид (просмотр событий), присутствующий в имидже "
+"будет заменен на расширенный телегид. Новый телегид с дополнительной "
+"информацией и более красочный. Требуется перезагрузка."
+
+msgid "Choose a color for the number of channel. No restart required."
+msgstr "Выберите цвет для номера канала. Применяется без перезагрузки."
+
+msgid ""
+"Choose a color for the number of channel, when it selected. No restart "
+"required."
+msgstr ""
+"Выберите цвет для номера канала на выбранной строчке. Применяется без "
+"перезагрузки."
+
+msgid "Choose a color for the Service Name. No restart required."
+msgstr "Выберите цвет для названия канала. Применяется без перезагрузки."
+
+msgid ""
+"Choose a color for the Service Name, when it selected. No restart required."
+msgstr ""
+"Выберите цвет для названия канала на выбранной строчке. Применяется без "
+"перезагрузки."
+
+msgid "Choose a color for the percent. No restart required."
+msgstr "Выберите цвет для процентов. Применяется без перезагрузки."
+
+msgid "Choose a color for the percent, when it selected. No restart required."
+msgstr ""
+"Выберите цвет для процентов на выбранной строчке. Применяется без "
+"перезагрузки."
+
+msgid "Choose a color for the Event. No restart required."
+msgstr "Выберите цвет для названия передачи. Применяется без перезагрузки."
+
+msgid "Choose a color for the Event, when it selected. No restart required."
+msgstr ""
+"Выберите цвет для названия передачи на выбранной строчке. Применяется без "
+"перезагрузки."
+
+msgid ""
+"Choose a color for the start- and end- time for event in the double-row list "
+"of channels. No restart required."
+msgstr ""
+"Выберите цвет для времени начала-окончания события в двухрядном списке "
+"каналов. Применяется без перезагрузки."
+
+msgid ""
+"Choose a color for the start- and end- time for event in the double-row list "
+"of channels, when it selected. No restart required."
+msgstr ""
+"Выберите цвет для времени начала-окончания события в двухрядном списке "
+"каналов на выбранной строчке. Применяется без перезагрузки."
+
+msgid ""
+"Choose a color for the remaining time for event in the double-row list of "
+"channels. No restart required."
+msgstr ""
+"Выберите цвет для оставшегося времени в двухрядном списке каналов. "
+"Применяется без перезагрузки."
+
+msgid ""
+"Choose a color for the remaining time for event in the double-row list of "
+"channels, when it selected. No restart required."
+msgstr ""
+"Выберите цвет для оставшегося времени в двухрядном списке каналов на "
+"выбранной строчке. Применяется без перезагрузки."
+
+msgid "Selective yellow"
+msgstr "Отборный желтый"
+
+msgid "only Infobars"
+msgstr "Только инфобары"
+
+msgid "all windows"
+msgstr "Все окна"
+
+msgid "disable"
+msgstr "Отключить"
+
+msgid "Specify whether to turn on the smoothly show only infobars or all the windows or disable this function. Restart required."
+msgstr "Выберите тип плавного затухания и появления окон. Можно выбрать, чтобы плавно появлялись и затухали только инфобары, либо все окна имиджа. При этом затухают только инфобары. Либо можете отключить эту функцию."
+
+msgid "Smooth emergence and attenuation"
+msgstr "Плавное появление и затухание"
+
+msgid "Enable or disable Infobar effects. Restart required."
+msgstr "Включение или отключение эффектов Инфобаров. Требуется перезагрузка"
+
+msgid "Specify whether to turn on the smoothly show only infobars or all the windows. Or you can choose other types of effects. Restart required."
+msgstr "Выберите тип эффектов Инфобаров. Если выберите вариант со всеми окнами, все окна имиджа будут появляться плавно, а затухание будет только у инфобаров. При выборе смешанного типа, первый инфобар будет появляться снизу и исчезать вниз, второй инфобар будет затухать. Требуется перезагрузка."
+
+msgid "Enable Infobar Effects"
+msgstr "Включить эффекты инфобара"
+
+msgid "Effect types"
+msgstr "Типы эффектов"
+
+msgid "Smoothly show and hide"
+msgstr "Плавное появление и затухание"
+
+msgid "All windows smoothly show"
+msgstr "Плавное появление всех окон"
+
+msgid "Uprise from the bottom"
+msgstr "Появление снизу и исчезание вниз"
+
+msgid "Mixed type"
+msgstr "Смешанный тип"
