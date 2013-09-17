@@ -1,6 +1,6 @@
-Package: enigma2-plugin-systemplugins-extrachannelselection_for_openpli_3.0
+Package: enigma2-plugin-systemplugins-extrachannelselection
 Version: 2.8
-Description:  plugin for change service list on channel selection by a.k.a. Uchkun
+Description:  Plugin for change service list on channel selection
 Section: base
 Priority: optional
 Maintainer: a.k.a. Uchkun @
