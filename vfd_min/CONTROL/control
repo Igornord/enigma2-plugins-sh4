@@ -1,0 +1,4 @@
+Package: enigma2-plugin-systemplugins-vfdminimal
+Version: 20131010
+Description: System plugin for VFD (minimal)
+Maintainer: Taapat <taapat@gmail.com>

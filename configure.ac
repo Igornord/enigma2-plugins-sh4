@@ -202,9 +202,11 @@ extrachannelselection/Makefile
 extrachannelselection/meta/Makefile
 extrachannelselection/po/Makefile
 extrachannelselection/src/Makefile
-extrachannelselection/src/components/Makefile
+extrachannelselection/src/Components/Makefile
+extrachannelselection/src/ExtraChannelSelection
+extrachannelselection/src/Screens/Makefile
 extrachannelselection/src/images/Makefile
-extrachannelselection/src/screens/Makefile
+
 
 filebrowser/Makefile
 filebrowser/meta/Makefile
@@ -573,6 +575,10 @@ valixdcontrol/meta/Makefile
 valixdcontrol/src/Makefile
 valixdcontrol/src/comp/Makefile
 valixdcontrol/src/data/Makefile
+
+vfd_min/Makefile
+vfd_min/meta/Makefile
+vfd_min/src/Makefile
 
 virtualzap/Makefile
 virtualzap/meta/Makefile
