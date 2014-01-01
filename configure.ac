@@ -87,5 +87,12 @@ hddmanager/meta/Makefile
 hddmanager/po/Makefile
 hddmanager/src/Makefile
 
+libgisclub/Makefile
+libgisclub/meta/Makefile
+libgisclub/srcMakefile
+libgisclub/src/Converter/Makefile
+libgisclub/src/Renderer/Makefile
+libgisclub/src/bitratecalc/Makefile
+
 ])
 AC_OUTPUT

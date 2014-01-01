@@ -4,7 +4,8 @@ SUBDIRS = \
 	alternativesoftcammanager \
 	autovolume \
 	dreamexplorer \
-	hddmanager
+	hddmanager \
+	libgisclub
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \
@@ -42,7 +43,6 @@ SUBDIRS = \
 #	kiddytimer \
 #	lastfm \
 #	letterbox \
-#	libgisclubskin \
 #	logomanager \
 #	mediadownloader \
 #	merlinepg \

@@ -1,0 +1,17 @@
+<default>
+	  <prerequisites>
+                    <tag type="System" />
+	  </prerequisites>
+          <info>
+                    <author>2boom and others</author>
+                    <name>LibGisclub</name>
+                    <packagename>enigma2-plugin-systemplugins-libgisclub</packagename>
+                    <shortdescription>Gisclub lib</shortdescription>
+                    <description>Gisclub library converter's and renderer's.</description>
+                    <screenshot/>
+          </info>
+
+	  <files type="package"> <!-- without version, without .ipk -->
+		<file type="package" name="enigma2-plugin-systemplugins-libgisclub" />
+	  </files>
+</default>
