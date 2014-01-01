@@ -1,5 +1,7 @@
 Package: enigma2-plugin-extensions-hddmanager
-Version: 20130809
+Version: 20131211
 Description: Plugin to manage mounting and swapfile.
+Section: base
+Priority: optional
 Maintainer: Taapat <taapat@gmail.com>
-
+Architecture: sh4

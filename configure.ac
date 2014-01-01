@@ -82,5 +82,10 @@ dreamexplorer/meta/Makefile
 dreamexplorer/src/Makefile
 dreamexplorer/src/res/Makefile
 
+hddmanager/Makefile
+hddmanager/meta/Makefile
+hffmanager/po/Makefile
+hddmanager/src/Makefile
+
 ])
 AC_OUTPUT

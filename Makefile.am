@@ -3,7 +3,8 @@ ACLOCAL_AMFLAGS = -I m4
 SUBDIRS = \
 	alternativesoftcammanager \
 	autovolume \
-	dreamexplorer
+	dreamexplorer \
+	hddmanager
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \
@@ -35,7 +36,6 @@ SUBDIRS = \
 #	ftpbrowser \
 #	googlemaps \
 #	growlee \
-#	hddmanager \
 #	httpproxy \
 #	imdb \
 #	infobartunerstate \
