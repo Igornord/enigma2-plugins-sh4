@@ -84,7 +84,7 @@ dreamexplorer/src/res/Makefile
 
 hddmanager/Makefile
 hddmanager/meta/Makefile
-hffmanager/po/Makefile
+hddmanager/po/Makefile
 hddmanager/src/Makefile
 
 ])
