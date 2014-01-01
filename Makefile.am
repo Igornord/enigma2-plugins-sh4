@@ -1,7 +1,8 @@
 ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = \
-	alternativesoftcammanager
+	alternativesoftcammanager \
+	autovolume
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \

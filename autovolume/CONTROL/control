@@ -1,0 +1,9 @@
+Package: enigma2-plugin-systemplugins-autovolume
+Version: 20131012
+Description: Simple automatic volume adjustment.
+Section : base
+Priority: optional
+Maintainer: Taapat <taapat@gmail.com>
+Architecture: sh4
+Source: git://github.com/OpenAR-P/enigma2-plugins-sh4.git
+
