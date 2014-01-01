@@ -1,0 +1,17 @@
+<default>
+	  <prerequisites>
+                    <tag type="Software" />
+	  </prerequisites>
+          <info>
+                    <author>Vali</author>
+                    <name>Dream Explorer</name>
+                    <packagename>enigma2-plugin-extensions-dreamexplorer</packagename>
+                    <shortdescription>File Manager</shortdescription>
+                    <description>Manage file system your linux receiver.</description>
+                    <screenshot/>
+          </info>
+
+	  <files type="package"> <!-- without version, without .ipk -->
+		<file type="package" name="enigma2-plugin-extensions-dreamexplorer" />
+	  </files>
+</default>

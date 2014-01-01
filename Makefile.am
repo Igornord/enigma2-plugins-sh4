@@ -2,7 +2,8 @@ ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = \
 	alternativesoftcammanager \
-	autovolume
+	autovolume \
+	dreamexplorer
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \

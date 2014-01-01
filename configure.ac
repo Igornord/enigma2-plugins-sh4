@@ -77,5 +77,10 @@ autovolume/Makefile
 autovolume/meta/Makefile
 autovolume/src/Makefile
 
+dreamexplorer/Makefile
+dreamexplorer/meta/Makefile
+dreamexplorer/src/Makefile
+dreamexplorer/src/res/Makefile
+
 ])
 AC_OUTPUT

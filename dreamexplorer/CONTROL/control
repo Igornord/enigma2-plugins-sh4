@@ -1,0 +1,8 @@
+Package: enigma2-plugin-extensions-dreamexplorer
+Version: 7.4-r2
+Description: File Manager
+Section: base
+Priority: optional
+Maintainer: vali@dreambox-tools.info
+Architecture: sh4
+Homepage: www.dreambox-tools.info
