@@ -1,7 +1,7 @@
+from os import listdir, mkdir, path, remove
+
 from Components.config import config
 from Components.Console import Console
-
-from os import mkdir, path, remove
 
 
 def getcamcmd(cam):
@@ -31,13 +31,19 @@ def getcamcmd(cam):
 		return config.plugins.AltSoftcam.camdir.value + "/" + cam + " -b -c " + \
 			config.plugins.AltSoftcam.camconfig.value + "/"
 	elif "rucam" in camname:
+		if not path.exists("/proc/sparkid"):
+			if path.exists("/lib/modules/encrypt.ko"):
+				Console().ePopen("insmod /lib/modules/encrypt.ko")
+			else:
+				for version in listdir("/lib/modules"):
+					if path.exists("/lib/modules/%s/extra/encrypt/encrypt.ko" % version):
+						Console().ePopen("modprobe encrypt")
 		return config.plugins.AltSoftcam.camdir.value + "/" + cam + " -b"
 	return config.plugins.AltSoftcam.camdir.value + "/" + cam
 
 def getcamscript(cam):
 	cam = cam.lower()
-	if cam.endswith('.sh') or cam.startswith('softcam') or \
-		cam.startswith('cardserver'):
+	if cam[-3:] == ".sh" or cam[:7] == "softcam" or cam[:10] == "cardserver":
 		return True
 	return False
 
@@ -75,3 +81,4 @@ def checkconfigdir():
 			__createdir("/var/emu")
 			config.plugins.AltSoftcam.camdir.value = "/var/emu"
 		config.plugins.AltSoftcam.camdir.save()
+
