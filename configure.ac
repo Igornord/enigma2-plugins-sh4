@@ -101,5 +101,9 @@ networkbrowser/src/Makefile
 networkbrowser/src/icons/Makefile
 networkbrowser/src/lib/Makefile
 
+osdadjustment/Makefile
+osdadjustment/meta/Makefile
+osdadjustment/src/Makefile
+
 ])
 AC_OUTPUT

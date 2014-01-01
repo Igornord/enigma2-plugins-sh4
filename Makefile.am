@@ -6,7 +6,8 @@ SUBDIRS = \
 	dreamexplorer \
 	hddmanager \
 	libgisclub \
-	networkbrowser
+	networkbrowser \
+	osdadjustment
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \
@@ -63,7 +64,6 @@ SUBDIRS = \
 #	ofdb \
 #	orfat \
 #	orfteletext \
-#	osdadjustment \
 #	partnerbox \
 #	permanentclock \
 #	permanenttimeshift \
