@@ -89,7 +89,7 @@ hddmanager/src/Makefile
 
 libgisclub/Makefile
 libgisclub/meta/Makefile
-libgisclub/srcMakefile
+libgisclub/src/Makefile
 libgisclub/src/Converter/Makefile
 libgisclub/src/Renderer/Makefile
 libgisclub/src/bitratecalc/Makefile
