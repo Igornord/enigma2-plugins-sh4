@@ -5,7 +5,8 @@ SUBDIRS = \
 	autovolume \
 	dreamexplorer \
 	hddmanager \
-	libgisclub
+	libgisclub \
+	networkbrowser
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \
@@ -59,7 +60,6 @@ SUBDIRS = \
 #	multirc \
 #	ncidclient \
 #	netcaster \
-#	networkbrowser \
 #	ofdb \
 #	orfat \
 #	orfteletext \

@@ -94,5 +94,12 @@ libgisclub/src/Converter/Makefile
 libgisclub/src/Renderer/Makefile
 libgisclub/src/bitratecalc/Makefile
 
+networkbrowser/Makefile
+networkbrowser/meta/Makefile
+networkbrowser/po/Makefile
+networkbrowser/src/Makefile
+networkbrowser/src/icons/Makefile
+networkbrowser/src/lib/Makefile
+
 ])
 AC_OUTPUT
