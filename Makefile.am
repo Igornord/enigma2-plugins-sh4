@@ -8,7 +8,8 @@ SUBDIRS = \
 	libgisclub \
 	networkbrowser \
 	osdadjustment \
-	rucam
+	rucam \
+	settings36
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \

@@ -1,0 +1,1 @@
+installdir = /etc/enigma2

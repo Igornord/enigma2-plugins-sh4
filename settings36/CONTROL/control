@@ -1,0 +1,6 @@
+Package: enigma2-plugin-settings-36e
+Version: 1-r0
+Section: extra
+Architecture: all
+Maintainer: Igornord (igorkag@gmail.com)
+Description: Settings for Eutelsat A/B 36E

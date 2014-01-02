@@ -1,0 +1,17 @@
+<default>
+	  <prerequisites>
+                    <tag type="Software" />
+	  </prerequisites>
+          <info>
+                    <author>Igornord</author>
+                    <name>Settings for 36e</name>
+                    <packagename>enigma2-plugin-settings-36e</packagename>
+                    <shortdescription>Settings for 36E</shortdescription>
+                    <description>Settings for EutelSat A/B (lamedb and bouquet's)</description>
+                    <screenshot/>
+          </info>
+
+	  <files type="package"> <!-- without version, without .ipk -->
+		<file type="package" name="enigma2-plugin-settings-36e" />
+	  </files>
+</default>

@@ -111,5 +111,9 @@ rucam/src/Makefile
 rucam/src/bin/Makefile
 rucam/src/init/Makefile
 
+settings36/Makefile
+settings36/meta/Makefile
+settings36/src/Makefile
+
 ])
 AC_OUTPUT
