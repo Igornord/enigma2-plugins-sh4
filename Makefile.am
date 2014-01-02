@@ -7,7 +7,8 @@ SUBDIRS = \
 	hddmanager \
 	libgisclub \
 	networkbrowser \
-	osdadjustment
+	osdadjustment \
+	rucam
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \

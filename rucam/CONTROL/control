@@ -1,0 +1,7 @@
+Package: enigma2-plugin-softcams-rucam
+Version: 0.3
+Section: base
+Architecture: sh4
+Maintainer: igorkag@gmail.com
+Depends: softcamsupport
+Description: Rucam softcam

@@ -1,0 +1,6 @@
+#!/bin/sh
+	[ -d $D/usr/bin/cam ] || mkdir $D/usr/bin/cam
+	[ -d $D/var/emu ] || mkdir $D/var/emu
+	ln -s $D/usr/bin/rucam $D/usr/bin/cam/rucam
+	ln -s $D/usr/bin/rucam $D/var/emu/rucam
+exit 0

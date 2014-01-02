@@ -105,5 +105,11 @@ osdadjustment/Makefile
 osdadjustment/meta/Makefile
 osdadjustment/src/Makefile
 
+rucam/Makefile
+rucam/meta/Makefile
+rucam/src/Makefile
+rucam/src/bin/Makefile
+rucam/src/init/Makefile
+
 ])
 AC_OUTPUT

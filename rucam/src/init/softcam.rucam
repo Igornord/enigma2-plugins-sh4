@@ -1,0 +1,25 @@
+#!/bin/sh
+case "$1" in
+start)
+	sleep 1 ; modprobe encrypt; exec /usr/bin/rucam &
+	;;
+stop)
+	killall rucam; rmmod encrypt
+	;;
+restart|reload)
+	$0 stop
+	sleep 1
+	$0 start
+	;;
+version)
+	echo "0.3"
+	;;
+info)
+	echo "rucam 0.3"
+	;;
+*)
+	echo "Usage: $0 start|stop|restart"
+	exit 1
+	;;
+esac
+exit 0

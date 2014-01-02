@@ -1,0 +1,12 @@
+#!/bin/sh
+/etc/init.d/softcam.rucam stop
+OLDLINK=`readlink -f /etc/init.d/softcam`
+if [ "${OLDLINK}" == "/etc/init.d/softcam.rucam" ]
+then
+	echo "rucam was selected, now selecting None as softcam"
+	rm -f /etc/init.d/softcam
+	ln -s softcam.None /etc/init.d/softcam
+fi
+	rm /usr/bin/cam/rucam
+	rm /var/emu/rucam
+exit 0
