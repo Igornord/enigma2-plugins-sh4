@@ -1,0 +1,8 @@
+Package: enigma2-plugin-extensions-softcamsetup
+Version: 3.0-r2
+Description: softcamsetup-mod
+Section: base
+Priority: optional
+Maintainer: Dima73 <Dima-73@inbox.lv>
+Depends: softcamsupport,cardserversupport
+Architecture: sh4

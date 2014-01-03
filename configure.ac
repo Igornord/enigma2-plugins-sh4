@@ -115,6 +115,12 @@ settings36/Makefile
 settings36/meta/Makefile
 settings36/src/Makefile
 
+softcamsetup/Makefile
+softcamsetup/meta/Makefile
+softcamsetup/po/Makefile
+softcamsetup/src/Makefile
+softcamsetup/src/images/Makefile
+
 wicardd/Makefile
 wicardd/meta/Makefile
 wicardd/src/Makefile

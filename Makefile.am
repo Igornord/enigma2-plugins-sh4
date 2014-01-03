@@ -10,6 +10,7 @@ SUBDIRS = \
 	osdadjustment \
 	rucam \
 	settings36 \
+	softcamsetup \
 	wicardd
 #	antiscrollbar \
 #	audiosync \
