@@ -10,6 +10,7 @@ SUBDIRS = \
 	osdadjustment \
 	rucam \
 	settings36 \
+	settings36_4 \
 	softcamsetup \
 	wicardd \
 	vfd_max

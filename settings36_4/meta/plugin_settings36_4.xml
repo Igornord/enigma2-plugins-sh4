@@ -1,0 +1,17 @@
+<default>
+	  <prerequisites>
+                    <tag type="Settings" />
+	  </prerequisites>
+          <info>
+                    <author>Igornord</author>
+                    <name>Settings for 36e, 4w, 5e, 13e</name>
+                    <packagename>enigma2-plugin-settings-36e-4</packagename>
+                    <shortdescription>Settings for 36e, 4w, 5e, 13e</shortdescription>
+                    <description>Settings for 36e, 4w, 5e, 13e (lamedb and bouquet's)</description>
+                    <screenshot/>
+          </info>
+
+	  <files type="package"> <!-- without version, without .ipk -->
+		<file type="package" name="enigma2-plugin-settings-36e-4" />
+	  </files>
+</default>
