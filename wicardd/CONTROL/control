@@ -1,0 +1,7 @@
+Package: enigma2-plugin-softcams-wicardd
+Version: 1.16
+Section: base
+Architecture: sh4
+Maintainer: ooolexa@gmail.com
+Depends: cardserversupport
+Description: Wicardd softcam-cardserver

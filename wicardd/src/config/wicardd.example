@@ -1,0 +1,72 @@
+[global]
+daemon = 1
+# log = /tmp/wicardd.log 
+# log_udp = Your IP
+log_size = 100
+debug =1
+
+[webif]
+port = 8080
+debug = 1
+
+[dvb]
+type = DVBAPI3
+filter = EMM,dvb
+rerequest_not_decoded = 1
+# emm_filter_mode = 1
+debug = 1
+ecm_info = 2
+sdt = 1
+
+[filter]
+name = EMM
+type = emm
+rule = caid=4ae1;privdata=11;accept=funcard
+rule = reject
+
+[filter]
+name = dvb
+rule = caid=2710;ident=000000,000006;accept=lybid
+rule = caid=0500;ident=040600,040620;accept=ntv
+rule = caid=4ae1;ident=11;privdata=11;accept=funcard
+rule = caid=2600;accept=BISS
+rule = reject
+
+[reader]
+name = funcard
+type = funcard
+fw_file = /etc/tuxbox/config/FunCard.a90
+extee_file = /tmp/ee36.bin
+intee_file = /usr/keys/int_ee.bin
+extee_size=64
+async_mode = 0
+auto_update = 1
+debug =1
+
+[reader]
+active = 0
+name = lybid
+type = newcamd525
+account = Login:Password@Server:Port
+reconnect_delay = 1000
+emm_cache = 1
+ecm_ttl = 5000
+async_mode = 1
+filter = dvb
+
+[reader]
+active = 0
+name = ntv
+type = newcamd525
+account = Login:Password@Server:Port
+reconnect_delay = 1000
+emm_cache = 1
+ecm_ttl = 5000
+async_mode = 1
+filter = dvb
+
+[reader]
+active = 1
+name = BISS
+type = emubiss
+file = /usr/keys/SoftCam.Key

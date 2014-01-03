@@ -9,7 +9,8 @@ SUBDIRS = \
 	networkbrowser \
 	osdadjustment \
 	rucam \
-	settings36
+	settings36 \
+	wicardd
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \

@@ -115,5 +115,14 @@ settings36/Makefile
 settings36/meta/Makefile
 settings36/src/Makefile
 
+wicardd/Makefile
+wicardd/meta/Makefile
+wicardd/src/Makefile
+wicardd/src/bin/Makefile
+wicardd/src/config/Makefile
+wicardd/src/init/Makefile
+wicardd/src/keys/Makefile
+wicardd/src/script/Makefile
+
 ])
 AC_OUTPUT
