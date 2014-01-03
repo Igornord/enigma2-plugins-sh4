@@ -1,0 +1,4 @@
+Package: enigma2-plugin-systemplugins-vfdmaximal
+Version: 20140103
+Description: System plugin for VFD (maximal)
+Maintainer: Taapat <taapat@gmail.com>, Igornord (small fix)

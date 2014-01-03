@@ -130,5 +130,10 @@ wicardd/src/init/Makefile
 wicardd/src/keys/Makefile
 wicardd/src/script/Makefile
 
+vfd_max/Makefile
+vfd_max/meta/Makefile
+vfd_max/src/Makefile
+vfd_max/src/images/Makefile
+
 ])
 AC_OUTPUT

@@ -11,7 +11,8 @@ SUBDIRS = \
 	rucam \
 	settings36 \
 	softcamsetup \
-	wicardd
+	wicardd \
+	vfd_max
 #	antiscrollbar \
 #	audiosync \
 #	automaticcleanup \
