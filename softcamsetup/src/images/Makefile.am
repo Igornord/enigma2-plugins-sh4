@@ -1,4 +1,4 @@
-installdir = $(libdir)/enigma2/python/Plugins/PLi/SoftcamSetup/images
+installdir = $(libdir)/enigma2/python/Plugins/Extensions/SoftcamSetup/images
 
 install_DATA = *.png
 

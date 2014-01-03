@@ -7,7 +7,7 @@ import gettext
 def localeInit():
 	lang = language.getLanguage()[:2] # getLanguage returns e.g. "fi_FI" for "language_country"
 	os_environ["LANGUAGE"] = lang # Enigma doesn't set this (or LC_ALL, LC_MESSAGES, LANG). gettext needs it!
-	gettext.bindtextdomain("SoftcamSetup", resolveFilename(SCOPE_PLUGINS, "PLi/SoftcamSetup/locale"))
+	gettext.bindtextdomain("SoftcamSetup", resolveFilename(SCOPE_PLUGINS, "Extensions/SoftcamSetup/locale"))
 
 def _(txt):
 	t = gettext.dgettext("SoftcamSetup", txt)

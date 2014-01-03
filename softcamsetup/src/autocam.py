@@ -129,10 +129,10 @@ autoCamList = AutoCamList()
 class AutoCamListSetup(Screen):
 	skin = """
 	<screen name="AutoCamListSetup" position="center,center" size="680,400" title="Auto-Camd List Setup">
-		<ePixmap position="0,390" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/red.png" transparent="1" alphatest="on" />
-		<ePixmap position="170,390" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/green.png" transparent="1" alphatest="on" />
-		<ePixmap position="340,390" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/yellow.png" transparent="1" alphatest="on" />
-		<ePixmap position="510,390" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup/images/blue.png" transparent="1" alphatest="on" />		
+		<ePixmap position="0,390" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/SoftcamSetup/images/red.png" transparent="1" alphatest="on" />
+		<ePixmap position="170,390" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/SoftcamSetup/images/green.png" transparent="1" alphatest="on" />
+		<ePixmap position="340,390" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/SoftcamSetup/images/yellow.png" transparent="1" alphatest="on" />
+		<ePixmap position="510,390" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/SoftcamSetup/images/blue.png" transparent="1" alphatest="on" />		
 		<widget name="key_red" position="0,348" zPosition="1" size="170,42" font="Regular;18" halign="center" valign="bottom" transparent="1" />
 		<widget name="key_green" position="170,348" zPosition="1" size="170,42" font="Regular;18" halign="center" valign="bottom" transparent="1"  />
 		<widget name="key_yellow" position="340,348" zPosition="1" size="170,42" font="Regular;18" halign="center" valign="bottom" transparent="1" />
