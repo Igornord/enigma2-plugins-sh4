@@ -1,4 +1,3 @@
 #!/bin/sh
-rm -rf /usr/lib/enigma2/python/Plugins/PLi/SoftcamSetup
-echo "Plugin removed! You should restart enigma2 now!"
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/SoftcamSetup
 exit 0
