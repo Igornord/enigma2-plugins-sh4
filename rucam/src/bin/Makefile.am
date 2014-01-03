@@ -1,4 +1,3 @@
-installdir = /usr/bin
+installdir = $(bindir)
 
-install-data-hook = chmod 0755 /usr/bin/rucam
-
+install_DATA = *
