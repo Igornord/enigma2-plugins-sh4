@@ -1,3 +1,3 @@
 installdir = /etc/init.d
 
-install_DATA = *
+install-data-hook = chmod 0755 /etc/init.d/softcam.rucam
