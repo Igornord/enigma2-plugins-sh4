@@ -21,7 +21,7 @@ for file in sys.argv[1:]:
 	info = None
 	# we need some of the info, but not all
 	for i in p.findall("info"):
-		if not info:
+		if not info is not None:
 			info = i
 	assert info
 	
