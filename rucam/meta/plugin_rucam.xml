@@ -1,17 +1,16 @@
 <default>
-	  <prerequisites>
-                    <tag type="Softcams" />
-	  </prerequisites>
-          <info>
-                    <author>Unknown</author>
-                    <name>SoftCam Rucam</name>
-                    <packagename>enigma2-plugin-softcams-rucam</packagename>
-                    <shortdescription>Softcam Rucam</shortdescription>
-                    <description>Free cardsharing for GI (8120, AVATAR etc.) ONLY!!!</description>
-                    <screenshot/>
-          </info>
-
-	  <files type="package"> <!-- without version, without .ipk -->
+	<prerequisites>
+		<tag type="Softcams" />
+	</prerequisites>
+	<info>
+		<author>Unknown</author>
+		<name>SoftCam Rucam</name>
+		<packagename>enigma2-plugin-softcams-rucam</packagename>
+		<shortdescription>Softcam Rucam</shortdescription>
+		<description>Free cardsharing for GI (8120, AVATAR etc.) ONLY!!!</description>
+		<screenshot/>
+	</info>
+	<files type="package">
 		<file type="package" name="enigma2-plugin-softcams-rucam" />
-	  </files>
+	</files>
 </default>

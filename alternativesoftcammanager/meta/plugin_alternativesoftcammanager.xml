@@ -1,17 +1,15 @@
 <default>
-	  <prerequisites>
-                    <tag type="Softcams" />
-	  </prerequisites>
-          <info>
-                    <author>Taapat</author>
-                    <name>Alternative SoftCam Manager</name>
-                    <packagename>enigma2-plugin-extensions-alternativesoftcammanager</packagename>
-                    <shortdescription>Manage Softcams</shortdescription>
-                    <description>Start, stop, restart SoftCams, change setting path.</description>
-                    <screenshot/>
-          </info>
-
-	  <files type="package"> <!-- without version, without .ipk -->
+	<prerequisites>
+		<tag type="Softcams" />
+	</prerequisites>
+	<info>
+		<author>Taapat</author>
+		<name>Alternative SoftCam Manager</name>
+		<packagename>enigma2-plugin-extensions-alternativesoftcammanager</packagename>
+		<shortdescription>Manage Softcams</shortdescription>
+		<description>Start, stop, restart SoftCams, change setting path.</description>
+	</info>
+	<files type="package">
 		<file type="package" name="enigma2-plugin-extensions-alternativesoftcammanager" />
-	  </files>
+	</files>
 </default>

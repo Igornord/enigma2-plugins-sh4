@@ -1,13 +1,15 @@
 <default>
-          <info>
-                    <author>Taapat</author>
-                    <name>VFD-Icons maximal</name>
-                    <packagename>enigma2-plugin-systemplugins-vfdmaximal</packagename>
-                    <shortdescription>Output information to VFD</shortdescription>
-                    <description>Output extended information about channel to VFD.</description>
-          </info>
-
-	  <files type="package"> <!-- without version, without .ipk -->
+	<prerequisites>
+		<tag type="System" />
+	</prerequisites>
+	<info>
+		<author>Taapat</author>
+		<name>VFD-Icons maximal</name>
+		<packagename>enigma2-plugin-systemplugins-vfdmaximal</packagename>
+		<shortdescription>Output information to VFD</shortdescription>
+		<description>Output extended information about channel to VFD.</description>
+	</info>
+	<files type="package">
 		<file type="package" name="enigma2-plugin-systemplugins-vfdmaximal" />
-	  </files>
+	</files>
 </default>

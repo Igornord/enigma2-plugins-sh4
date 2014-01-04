@@ -1,16 +1,15 @@
 <default>
-	  <prerequisites>
-                    <tag type="Softcams" />
-	  </prerequisites>
-          <info>
-                    <author>Dima-73</author>
-                    <name>SosftcamSetup</name>
-                    <packagename>enigma2-plugin-extensions-softcamsetup</packagename>
-                    <shortdescription>Softcam and cardserver manager</shortdescription>
-                    <description>Softcam and cardserver manager</description>
-          </info>
-
-	  <files type="package"> <!-- without version, without .ipk -->
+	<prerequisites>
+		<tag type="Softcams" />
+	</prerequisites>
+	<info>
+		<author>Dima-73</author>
+		<name>SosftcamSetup</name>
+		<packagename>enigma2-plugin-extensions-softcamsetup</packagename>
+		<shortdescription>Softcam and cardserver manager</shortdescription>
+		<description>Softcam and cardserver manager</description>
+	</info>
+	<files type="package">
 		<file type="package" name="enigma2-plugin-extensions-softcamsetup" />
-	  </files>
+	</files>
 </default>

@@ -1,17 +1,15 @@
 <default>
-	  <prerequisites>
-                    <tag type="Softcams" />
-	  </prerequisites>
-          <info>
-                    <author>Igornord</author>
-                    <name>Cardserver Wicardd</name>
-                    <packagename>enigma2-plugin-softcams-wicardd</packagename>
-                    <shortdescription>Cardserver Wicardd</shortdescription>
-                    <description>Cardserver-Softcam Wicardd for GI (8120, AVATAR etc.)</description>
-                    <screenshot/>
-          </info>
-
-	  <files type="package"> <!-- without version, without .ipk -->
+	<prerequisites>
+		<tag type="Softcams" />
+	</prerequisites>
+	<info>
+		<author>WiCard</author>
+		<name>Cardserver Wicardd</name>
+		<packagename>enigma2-plugin-softcams-wicardd</packagename>
+		<shortdescription>Cardserver Wicardd</shortdescription>
+		<description>Cardserver-Softcam Wicardd for GI (8120, AVATAR etc.)</description>
+	</info>
+	<files type="package">
 		<file type="package" name="enigma2-plugin-softcams-wicardd" />
-	  </files>
+	</files>
 </default>

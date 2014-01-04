@@ -1,13 +1,15 @@
 <default>
-          <info>
-                    <author>Taapat</author>
-                    <name>VFD-Icons minimal</name>
-                    <packagename>enigma2-plugin-systemplugins-vfdminimal</packagename>
-                    <shortdescription>Output information to VFD</shortdescription>
-                    <description>Output minimal information about channel to VFD.</description>
-          </info>
-
-	  <files type="package"> <!-- without version, without .ipk -->
+	<prerequisites>
+		<tag type="System" />
+	</prerequisites>
+	<info>
+		<author>Taapat</author>
+		<name>VFD-Icons minimal</name>
+		<packagename>enigma2-plugin-systemplugins-vfdminimal</packagename>
+		<shortdescription>Output information to VFD</shortdescription>
+		<description>Output minimal information about channel to VFD.</description>
+	</info>
+	<files type="package">
 		<file type="package" name="enigma2-plugin-systemplugins-vfdminimal" />
-	  </files>
+	</files>
 </default>
