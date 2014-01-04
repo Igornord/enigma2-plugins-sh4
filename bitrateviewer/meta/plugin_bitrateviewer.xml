@@ -1,0 +1,17 @@
+<default>
+	  <prerequisites>
+                    <tag type="System" />
+	  </prerequisites>
+          <info>
+                    <author>Dr.Best</author>
+                    <name>BitrateViewer</name>
+                    <packagename>enigma2-plugin-extensions-bitrateviewer</packagename>
+                    <shortdescription>Shows average bitrate of video and audio</shortdescription>
+                    <description>Shows average bitrate of video and audio</description>
+                    <screenshot src="https://raw.github.com/schpuntik/enigma2-plugins-sh4/3f49c401602441d6dbbbd3ccd2e9151cdbd1c6c3/bitrateviewer/meta/bitrateviewer.jpg" />
+          </info>
+
+	  <files type="package"> <!-- without version, without .ipk -->
+		<file type="package" name="enigma2-plugin-extensions-bitrateviewer" />
+	  </files>
+</default>

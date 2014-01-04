@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ExtraChannelSelection\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-16 01:13+0100\n"
+"PO-Revision-Date: 2013-04-19 19:28+0200\n"
+"Last-Translator: slavon <sdatsko@i.ua>\n"
+"Language-Team: a.k.a. Uchkun\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Language: ru_RU\n"
+
+msgid "Settings of service list on channel selection"
+msgstr "Налаштування списку каналів на Ваш смак"
+
+msgid "ExtraChannelSelection - Version: %s"
+msgstr "Екстра селектор каналів - Версія: %s"
+
+msgid "ExtraChannelSelection settings"
+msgstr "Налаштування екстра-списку каналів"
+
+msgid "ExtraChannelSelection Enabled"
+msgstr "Увімкнути  плугін"
+
+msgid "ProgressBar Type"
+msgstr "Налаштування Прогрес-Бару"
+
+msgid "Eventview type"
+msgstr "Налаштування подій"
+
+msgid "Percent Type"
+msgstr "Спосіб показу відсотків"
+
+msgid "Without ProgressBar"
+msgstr "Вимкнути ПрогресБар"
+
+msgid "Dark blue pixmap"
+msgstr "Темно-синій Бар"
+
+msgid "Dark green pixmap"
+msgstr "Зелений Бар"
+
+msgid "Red pixmap"
+msgstr "Темно-червоний Бар"
+
+msgid "Striped blue pixmap"
+msgstr "Синiй Бар"
+
+msgid "Bright yellow pixmap"
+msgstr "Яскраво-жовтий Бар"
+
+msgid "Black pixmap"
+msgstr "Чорний Бар"
+
+msgid "Light blue pixmap"
+msgstr "Яскраво-голубий Бар"
+
+msgid "Varicoloured pixmap"
+msgstr "Різно-кольоровий Бар"
+
+msgid "Versicolor pixmap"
+msgstr "Смугасний Бар"
+
+msgid "Dark yellow pixmap"
+msgstr "Помаранчевий Бар"
+
+msgid "Light green pixmap"
+msgstr "Яскраво-зелений Бар"
+
+msgid "Without Percent"
+msgstr "Вимкнути відсотки"
+
+msgid "Percent without brackets"
+msgstr "Відсотки без дужок"
+
+msgid "Percent in brackets"
+msgstr "Відсотки у дужках"
+
+msgid "Event without brackets"
+msgstr "Подія без дужок"
+
+msgid "Event in brackets"
+msgstr "Подія в дужках"
+
+msgid "Event through a dash"
+msgstr "Подія через тире"
+
+msgid "ExtraChannelSelectionSetup"
+msgstr "ExtraChannelSelection плугін"
+
+msgid "Author: a.k.a. Uchkun (c)"
+msgstr ""
+"Author: a.k.a. Uchkun @ \n"
+" ua - slavon (Львів, Бандерштат, Україна)"
+
+msgid "on left"
+msgstr "Ліворуч"
+
+msgid "on right"
+msgstr "Праворуч"
+
+msgid "Enable double-click OK"
+msgstr "Увімкнути подвійне натискання кнопки ОК"
+
+msgid "The text in the absence of an event"
+msgstr "Показувати повідомлення про відсутність ЕПГ"
+
+msgid "Show picon"
+msgstr "Увімкнути відображення піконів"
+
+msgid "Picon location"
+msgstr "Розташування піконів"
+
+msgid "Doubleline channellist"
+msgstr "Дворядковий список каналів"
+
+msgid "Color for this text"
+msgstr "Колір повідомлення про відсутність  ЕПГ"
+
+msgid "Orange"
+msgstr "Помаранчевий"
+
+msgid "Denim color"
+msgstr "Джинсовий"
+
+msgid "Gray"
+msgstr "Сірий"
+
+msgid "Dark slate gray"
+msgstr "Темно-сірий"
+
+msgid "Blue-green"
+msgstr "Синє-зелений"
+
+msgid "Cyan"
+msgstr "Блакитний"
+
+msgid "Midnight blue"
+msgstr "Темно-синій"
+
+msgid "Steel Blue"
+msgstr "Колір синьої сталі"
+
+msgid "Green"
+msgstr "Зелений"
+
+msgid "Silver"
+msgstr "Срібний"
+
+msgid "Aquamarine"
+msgstr "Колір морської хвилі"
+
+msgid "Yellow"
+msgstr "Жовтий"
+
+msgid "Red"
+msgstr "Червоний"
+
+msgid "Purple"
+msgstr "Фіолетовий"
+
+msgid "White"
+msgstr "Білий"
+
+msgid "Blue"
+msgstr "Синій"
+
+msgid "Saddle Brown"
+msgstr "Коричневий"
+
+msgid "Crimson"
+msgstr "Малиновий"
+
+msgid "Dim Gray"
+msgstr "Темно-серій"
+
+msgid "Tan"
+msgstr "Хакі"
+
+msgid "Sea green"
+msgstr "Морский зелений"
+
+msgid "Pink"
+msgstr "Розовий"
+
+msgid "Medium orchid"
+msgstr "Колір орхидеї"
+
+msgid "Indian red"
+msgstr "Каштановий"
+
+msgid "Antique white"
+msgstr "Античний білий"
+
+msgid "Light green"
+msgstr "Яскраво-зелений"
+
+msgid "Indigo"
+msgstr "Індиго"
+
+msgid "Dark Green"
+msgstr "Темно-зелений"
+
+msgid "Dark olive"
+msgstr "Темно-оливковий"
+
+msgid "Color from skin"
+msgstr "Колір зі скіну"
+
+msgid "ProgressBar with color"
+msgstr "Кольоровий Бар"
+
+msgid "ProgressBar with pixmap"
+msgstr "Бар з малюнком"
+
+msgid "Pixmap from skin"
+msgstr "Малюнок зі скіну"
+
+msgid "Color for Bar"
+msgstr "Колір  прогресбару"
+
+msgid "Color for selected Bar"
+msgstr "Колір  прогресбару при виборі"
+
+msgid "Pixmap for Bar"
+msgstr "Колір малюнку прогресбару"
+
+msgid "Color for selected BarBorder"
+msgstr "Колір граней Бару при виборі"
+
+msgid "Color for BarBorder"
+msgstr "Колір граней Бару"
+
+msgid "Color for Satlist"
+msgstr "Колір списку спутників"
+
+msgid "Color for selected Satlist"
+msgstr "Колір списку спутників при виборі"
+
+msgid "Colors of elements from a skin"
+msgstr "Колір елементів зі скіну"
+
+msgid "Color for number"
+msgstr "Колір номеру каналу"
+
+msgid "Color for number when selected"
+msgstr "Колір номеру каналу при виборі"
+
+msgid "Color for Service Name"
+msgstr "Колір назви каналу"
+
+msgid "Color for Service Name when selected"
+msgstr "Колір назви каналу при виборі"
+
+msgid "Color for percent"
+msgstr "Колір відсотків"
+
+msgid "Color for percent when selected"
+msgstr "Колір відсотків при виборі"
+
+msgid "Color for event"
+msgstr "Колір назви передачі"
+
+msgid "Color for event when selected"
+msgstr "Колір назви передачі при виборі"
+
+msgid "Start-end Color"
+msgstr "Колір початку-закінчення"
+
+msgid "Start-end Color when selected"
+msgstr "Колір початку-закінчення при выборі"
+
+msgid "Color for remaining time"
+msgstr "Колір часу що залишився"
+
+msgid "Color for remaining time when selected"
+msgstr "Колір часу що залишився при виборі"
+
+msgid "only minutes"
+msgstr "У хвилинах"
+
+msgid "hours and minutes"
+msgstr "Години та хвилини"
+
+msgid "Bar on left"
+msgstr "Прогресбар ліворуч"
+
+msgid "Bar on right"
+msgstr "Прогресбар праворуч"
+
+msgid "Percent on left"
+msgstr "Відсотки ліворуч"
+
+msgid "Percent on right"
+msgstr "Відсотки праворуч"
+
+msgid "Without Bar"
+msgstr "Вимкнути прогресбар"
+
+msgid "Bar or percent position"
+msgstr "Розташування Бару та відсотків"
+
+msgid "Show channel number"
+msgstr "Показувати номер каналу"
+
+msgid "Remaining time type"
+msgstr "Тип часу що залишився"
+
+msgid "Bar and percent together"
+msgstr "Бар та відсотки разом"
+
+msgid "Percent location"
+msgstr "Розташування відсотків"
+
+msgid "Font-size Number"
+msgstr "Розмір шрифту для номеру каналу"
+
+msgid "Font-size Service Name"
+msgstr "Розмір шрифту для  назви каналу"
+
+msgid "Font-size Percent"
+msgstr "Розмір шрифту для відсотків"
+
+msgid "Font-size Event"
+msgstr "Розмір шрифту для назви передачі"
+
+msgid "Font-size Remain"
+msgstr "Розмір шрифту для часу що залишився"
+
+msgid "Font-size Start-End"
+msgstr "Розмір шрифту для початку-закінчення"
+
+msgid "Font-size Text"
+msgstr "Розмір шрифту тексту"
+
+msgid "Size from skin"
+msgstr "Розмір зі скіну"
+
+msgid "Font-size Sat & Prov"
+msgstr "Розмір шрифта супутників і провайдерів"
+
+msgid "Change EPG window"
+msgstr "Змінити вікно телегіда"
+
+msgid "Without remain"
+msgstr "Відключити"
+
+msgid "Start-end time enabled"
+msgstr "Показати час початку-закінчення"
+
+msgid "Type of display of icons"
+msgstr "Тип показу іконок"
+
+msgid "Without icon"
+msgstr "Не показувати"
+
+msgid "At the beginning"
+msgstr "На початку рядка"
+
+msgid "After the servicename"
+msgstr "Після назви каналу"
+
+msgid "Black"
+msgstr "Чорний"
+
+msgid "Black light"
+msgstr "Світло-чорний"
+
+msgid "Dark blue"
+msgstr "Темно-блакитний"
+
+msgid "Navy blue"
+msgstr "Темно-синій"
