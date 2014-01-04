@@ -1,3 +1,0 @@
-Package: enigma2-plugin-extensions-autotimer
-Description: Automatically add Timers based on simple rules 
-Depends: enigma2-plugin-systemplugins-mphelp, enigma2-plugin-systemplugins-toolkit

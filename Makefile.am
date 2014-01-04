@@ -13,7 +13,8 @@ SUBDIRS = \
 	settings36_4 \
 	softcamsetup \
 	wicardd \
-	vfd_max
+	vfd_max \
+	vfd_min
 
 metadir = $(datadir)/meta
 meta_DATA = index-enigma2-plugins.xml

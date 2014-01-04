@@ -1,2 +1,0 @@
-def Plugins(**kwargs):
-	return []

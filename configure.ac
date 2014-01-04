@@ -139,5 +139,10 @@ vfd_max/meta/Makefile
 vfd_max/src/Makefile
 vfd_max/src/images/Makefile
 
+vfd_min/Makefile
+vfd_min/meta/Makefile
+vfd_min/src/Makefile
+
+
 ])
 AC_OUTPUT
