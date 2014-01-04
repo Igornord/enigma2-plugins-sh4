@@ -1,6 +1,0 @@
-Package: enigma2-plugin-extensions-ecasa
-Version: 0.0.1-20110908-r0
-Description: simple picasa client
-Maintainer: Moritz Venn <moritz.venn@freaque.net>
-Homepage: http://www.ritzmo.de
-Depends:
