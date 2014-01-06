@@ -1,8 +1,5 @@
 from . import _
 
-import os
-from string import atoi
-
 from Components.ActionMap import ActionMap
 from Components.ConfigList import ConfigListScreen
 from Components.Console import Console
@@ -11,7 +8,10 @@ from Components.Sources.StaticText import StaticText
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
 
-from HddMount import CheckMountDir, GetDeviceFromList, GetDevices, mountdevice
+from string import atoi
+
+import os
+import HddMount
 
 
 class MountSetup(Screen, ConfigListScreen):
@@ -22,7 +22,7 @@ class MountSetup(Screen, ConfigListScreen):
 		self.Console = Console()
 		self.list = []
 		self.swapdevice = []
-		self.device = GetDevices()
+		self.device = HddMount.GetDevices()
 		self["key_red"] = StaticText(_("Cancel"))
 		self["key_green"] = StaticText(_("Ok"))
 		self["actions"] = ActionMap(["OkCancelActions", "ColorActions"],
@@ -39,11 +39,11 @@ class MountSetup(Screen, ConfigListScreen):
 		if self.device:
 			for line in result.splitlines():
 				if line and line[:4] == "/dev":
-					swap = GetDeviceFromList(self.device, line[5:9])
+					swap = HddMount.GetDeviceFromList(self.device, line[5:9])
 					if swap in self.device:
 						self.device.remove(swap)
 						self.swapdevice.append(swap)
-		mounts = CheckMountDir(self.device)
+		mounts = HddMount.CheckMountDir(self.device)
 		self.hdd = mounts[0]
 		self.MountOnHdd = ConfigSelection(default = self.hdd, \
 			choices = [("nothing", _("nothing"))] + self.device)
@@ -52,14 +52,14 @@ class MountSetup(Screen, ConfigListScreen):
 			choices = [("nothing", _("nothing"))] + self.device)
 		self.swap = "no"
 		try:
-			with open("/proc/swaps", "r") as f:
-				for line in f.readlines():
-					if line[:19] == "/media/hdd/swapfile":
-						self.swap = str(os.path.getsize("/media/hdd/swapfile") / 1024)
-					else:
-						for device in self.swapdevice:
-							if device[:4] == line[5:9]:
-								self.swap = device
+			f = open("/proc/swaps", "r")
+			for line in f.readlines():
+				if line[:19] == "/media/hdd/swapfile":
+					self.swap = str(os.path.getsize("/media/hdd/swapfile") / 1024)
+				else:
+					for device in self.swapdevice:
+						if device[:4] == line[5:9]:
+							self.swap = device
 			f.close()
 		except IOError, ex:
 			print "[HddManager] Failed to open /proc/swaps", ex
@@ -101,16 +101,16 @@ class MountSetup(Screen, ConfigListScreen):
 				if self.hdd != "nothing":
 					self.Console.ePopen("umount /media/hdd")
 				if self.MountOnHdd.value != "nothing":
-					mountdevice.Mount("/dev/" + self.MountOnHdd.value[:4], \
+					HddMount.mountdevice.Mount("/dev/" + self.MountOnHdd.value[:4], \
 						"/media/hdd")
 			config.plugins.HddMount.MountOnMovie.value = self.MountOnMovie.value
 			if self.MountOnMovie.value != self.movie:
 				if self.movie != "nothing":
 					self.Console.ePopen("umount /media/hdd/movie")
 				if self.MountOnMovie.value != "nothing":
-					mountdevice.Mount("/dev/" + self.MountOnMovie.value[:4], \
+					HddMount.mountdevice.Mount("/dev/" + self.MountOnMovie.value[:4], \
 						"/media/hdd/movie")
-			config.plugins.HddMount.SwapFile.value = self.SwapFile.value
+			config.plugins.HddMount.SwapFile = self.SwapFile
 			if self.SwapFile.value != self.swap:
 				if self.swap[:2] == "sd":
 					self.Console.ePopen("swapoff /dev/%s" % self.swap[:4])
