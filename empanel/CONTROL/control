@@ -1,0 +1,9 @@
+Package: enigma2-plugin-extensions-empanel
+Version: 0.7-r2
+Description: Emicro Panel by 2boom
+Section: base
+Priority: optional
+Maintainer: 2boom
+License: GPL
+Architecture: sh4
+Homepage: 4bob@ua.fm

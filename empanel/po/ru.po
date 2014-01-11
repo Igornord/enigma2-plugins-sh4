@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emicro Panel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-29 01:13+0100\n"
+"PO-Revision-Date: 2012-12-02 15:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: 2boom <4bob@ua.fm>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: ru_UA\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Manual"
+msgstr "Вручную"
+
+msgid "Angola"
+msgstr "Ангола"
+
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+msgid "South Africa"
+msgstr "Южная Африка"
+
+msgid "Tanzania"
+msgstr "Танзания"
+
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+msgid "China"
+msgstr "Китай"
+
+msgid "Hong Kong"
+msgstr "Гонконг"
+
+msgid "India"
+msgstr "Индия"
+
+msgid "Indonesia"
+msgstr "Индонезия"
+
+msgid "Iran"
+msgstr "Иран"
+
+msgid "Japan"
+msgstr "Япония"
+
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+msgid "Korea"
+msgstr "Корея"
+
+msgid "Malaysia"
+msgstr "Малайзия"
+
+msgid "Pakistan"
+msgstr "Пакистан"
+
+msgid "Philippines"
+msgstr "Филиппины"
+
+msgid "Singapore"
+msgstr "Сингапур"
+
+msgid "Taiwan"
+msgstr "Тайвань"
+
+msgid "Thailand"
+msgstr "Таиланд"
+
+msgid "Turkey"
+msgstr "Турция"
+
+msgid "United Arab Emirates"
+msgstr "Объединенные Арабские Эмираты"
+
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+msgid "Vietnam"
+msgstr "Вьетнам"
+
+msgid "Austria"
+msgstr "Австрия"
+
+msgid "Belarus"
+msgstr "Беларусь"
+
+msgid "Belgium"
+msgstr "Бельгия"
+
+msgid "Bulgaria"
+msgstr "Болгария"
+
+msgid "Czech Republic"
+msgstr "Чехия"
+
+msgid "Denmark"
+msgstr "Дания"
+
+msgid "Estonia"
+msgstr "Эстония"
+
+msgid "Finland"
+msgstr "Финляндия"
+
+msgid "France"
+msgstr "Франция"
+
+msgid "Germany"
+msgstr "Германия"
+
+msgid "Greece"
+msgstr "Греция"
+
+msgid "Hungary"
+msgstr "Венгрия"
+
+msgid "Ireland"
+msgstr "Ирландия"
+
+msgid "Italy"
+msgstr "Италия"
+
+msgid "Latvia"
+msgstr "Латвия"
+
+msgid "Lithuania"
+msgstr "Литва"
+
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+msgid "Macedonia"
+msgstr "Македония"
+
+msgid "Moldova"
+msgstr "Молдова"
+
+msgid "Netherlands"
+msgstr "Голландия"
+
+msgid "Norway"
+msgstr "Норвегия"
+
+msgid "Poland"
+msgstr "Польша"
+
+msgid "Portugal"
+msgstr "Португалия"
+
+msgid "Romania"
+msgstr "Румыния"
+
+msgid "Russian Federation"
+msgstr "Российская Федерация"
+
+msgid "Slovakia"
+msgstr "Словакия"
+
+msgid "Slovenia"
+msgstr "Словения"
+
+msgid "Spain"
+msgstr "Испания"
+
+msgid "Sweden"
+msgstr "Швеция"
+
+msgid "Switzerland"
+msgstr "Швейцария"
+
+msgid "Ukraine"
+msgstr "Украина"
+
+msgid "United Kingdom"
+msgstr "Великобритания"
+
+msgid "Bahamas"
+msgstr "Багамы"
+
+msgid "Canada"
+msgstr "Канада"
+
+msgid "Guatemala"
+msgstr "Гватемала"
+
+msgid "Mexico"
+msgstr "Мексика"
+
+msgid "Panama"
+msgstr "Панама"
+
+msgid "United States"
+msgstr "США"
+
+msgid "Australia"
+msgstr "Австралия"
+
+msgid "New Zealand"
+msgstr "Новая Зеландия"
+
+msgid "Argentina"
+msgstr "Аргентина"
+
+msgid "Brazil"
+msgstr "Бразилия"
+
+msgid "Chile"
+msgstr "Чили"
+
+msgid "30 min"
+msgstr "30 мин"
+
+msgid "60 min"
+msgstr "60 мин"
+
+msgid "120 min"
+msgstr "120 мин"
+
+msgid "180 min"
+msgstr "180 мин"
+
+msgid "240 min"
+msgstr "240 мин"
+
+msgid "EMicro Panel (c)2boom"
+msgstr "EМикро Панель (с)2boom"
+
+msgid "EMicro Reload epg.dat"
+msgstr "EМикро Перезагрузка epg.dat"
+
+msgid "Clear /tmp"
+msgstr "Очистить /tmp"
+
+msgid "start, stop, restart Sofcam/Cardserver"
+msgstr "старт, стоп, рестарт Эмулятор/Кардсервер"
+
+msgid "install ipk & tar.gz files from /tmp"
+msgstr "установка ipk & tar.gz из /tmp"
+
+msgid "uninstall ipk packets"
+msgstr "удаление ipk пакетов"
+
+msgid "time synchronization"
+msgstr "синхронизация времени"
+
+msgid "menage swap file"
+msgstr "управление файлом подкачки"
+
+msgid "unmount usb devices"
+msgstr "демонтирование usb устройств"
+
+msgid "run user's script"
+msgstr "запуск пользовательских скриптов"
+
+msgid "*.tar.gz & *.bh.tgz & *.ipk removed"
+msgstr "*.tar.gz & *.bh.tgz & *.ipk удалены"
+
+msgid "EMicro Manual Installer"
+msgstr "EМикро Установщик"
+
+msgid "Forced Install"
+msgstr "Прин. установка"
+
+msgid "Install packets"
+msgstr "Установка пакетов"
+
+msgid "Install tar.gz, bh.tgz, nab.tgz"
+msgstr "Установка tar.gz, bh.tgz, nab.tgz"
+
+msgid "EMicro Uninstaller"
+msgstr "EМикро Деинсталятор"
+
+msgid "UnInstall"
+msgstr "Удаление"
+
+msgid "Adv. UnInstall"
+msgstr "Прин. Удаление"
+
+msgid "%s is UnInstalled"
+msgstr "%s Удален"
+
+msgid "%s is Error UnInstalled"
+msgstr "%s Ошибка Удаления"
+
+msgid "EMicro SoftCam/CardServer"
+msgstr "EМикро Эмулятор/Кардсервер"
+
+msgid "Start"
+msgstr "Старт"
+
+msgid "ReStart"
+msgstr "Рестарт"
+
+msgid "Please wait, starting %s"
+msgstr "Ожидайте запускается %s"
+
+msgid "Please wait, stoping softcam or cardserver"
+msgstr "Ожидайте останвливается эмулятор или кардсервер"
+
+msgid "Please wait, restarting %s"
+msgstr "Ожидайте перезапускается %s"
+
+msgid "EMicro Swap Menager"
+msgstr "EМикро Управление Файлом подкачки"
+
+msgid "Start, Stop, Create, Remove Swap file"
+msgstr "Зупуск, Остановка, Создание, Удаление файла подкачки"
+
+msgid "Swap file created"
+msgstr "Файл подкачки создан"
+
+msgid "Swap on %s off (%s)"
+msgstr "включен на %s (%s)"
+
+msgid "Swap on %s on (%s)"
+msgstr "включить на %s (%s)"
+
+msgid "Remove swap on %s (%s)"
+msgstr "удалить %s (%s)"
+
+msgid "Make swap on %s (128MB)"
+msgstr "Создать файл подкачки на %s (128MB)"
+
+msgid "Make swap on %s (256MB)"
+msgstr "Создать файл подкачки на %s (256MB)"
+
+msgid "Make swap on %s (512MB)"
+msgstr "Создать файл подкачки на %s (512MB)"
+
+msgid "Swap file started"
+msgstr "Файл подкачки запущен"
+
+msgid "Swap file stoped"
+msgstr "Файл подкачки остановлен"
+
+msgid "Swap file removed"
+msgstr "Файл подкачки удален"
+
+msgid "EMicro USB Unmount"
+msgstr "EМикро Демонтирование USB устройств"
+
+msgid "UnMount"
+msgstr "Демонтирование"
+
+msgid "reFresh"
+msgstr "Обновить"
+
+msgid "Unmounted %s"
+msgstr "Дкмонтировано %s"
+
+msgid "EMicro Script Executer"
+msgstr "EМикро скрипты"
+
+msgid "EMicro NTP Menager"
+msgstr "EМикро Синхронизация времени"
+
+msgid "Update Now"
+msgstr "Обновить сейчас"
+
+msgid "NtpTime Updater"
+msgstr "Синхронизация времени"
+
+msgid "Set time to update"
+msgstr "Установить время обновления"
+
+msgid "Set Transponder time update"
+msgstr "Сихронизоровать с транспондером"
+
+msgid "StartUp synchronization"
+msgstr "Синхронизировать при старте"
+
+msgid "Set choice server mode"
+msgstr "Выбор типа сервера"
+
+msgid "Set your country"
+msgstr "Выберите свою страну"
+
+msgid "Set manual ntp server address"
+msgstr "Установить адрес ntp вручную"
+
+msgid "configuration is saved"
+msgstr "конфигурация сохранена"
+
+msgid "time updated"
+msgstr "время обновлено"
+
+msgid "new time not available"
+msgstr "новое время не введено"
+
+msgid "bad format"
+msgstr "неверный формат"
+
+msgid "bad year %s"
+msgstr "неправельный год %s"
+
+msgid "bad month %s"
+msgstr "неправельный месяц %s"
+
+msgid "bad day %s"
+msgstr "неправельный день %s"
+
+msgid "bad hour %s"
+msgstr "неправельный час %s"
+
+msgid "bad minute %s"
+msgstr "неправельные минуты %s"
+
+msgid "Apply the new System time?"
+msgstr "Применить новое системное время"
+
+msgid "not confirmed"
+msgstr "не потверждено"
+
+msgid "Change system time was canceled, because %s"
+msgstr "Измение системного времени отменено, %s"
+
+msgid "EMicro Panel"
+msgstr "EMикро Панель"
+
+msgid "simple tools"
+msgstr "простые инструменты"
+
+msgid "Manage Swap on %s"
+msgstr "Управление файлом подкачки на %s"
+
+msgid "Swap off"
+msgstr "Отключить"
+
+msgid "Swap on"
+msgstr "Включить"
+
+msgid "Remove swap"
+msgstr "Удалить"
+
+msgid "Make swap"
+msgstr "Создать"
+
+msgid "EMicro EPG Downloader"
+msgstr "EМикро ЕПГ загрузчик"
+
+msgid "dowload and menage epg from linux-sat.tv"
+msgstr "загрузка и управление epg.dat"
+
+msgid "Select path to save epg.dat"
+msgstr "Выбор пути сохранения epg.dat"
+
+msgid "Select EPG filename"
+msgstr "Выбор имени файла EPG"
+
+msgid "Select EPG language"
+msgstr "Выбор языка EPG"
+
+msgid "Patch enigma2.sh (need restart enigma2)"
+msgstr "Правка enigma2.sh (требуется перезагрузка enigma2)"
+
+msgid "AutoDownload epg.dat"
+msgstr "Автозагрузка epg.dat"
+
+msgid "AutoDownload time"
+msgstr "Время автозагрузки"
+
+msgid "AutoDownload weekday"
+msgstr "День недели автозагрузки"
+
+msgid "Automatic save/load EPG"
+msgstr "Автоматическое сохранение и загрузка EPG"
+
+msgid "Autobackup to ../epgtmp.gz"
+msgstr "Автоматическое сохранение в ../epgtmp.gz"
+
+msgid "Download EPG"
+msgstr "Загрузка EPG"
+
+msgid "EPG downloaded"
+msgstr "EPG загружен"
+
+msgid "Sorry, the EPG download error"
+msgstr "Извините, ошибка загрузки EPG"
+
+msgid "EPG save not possible, your device %s is not mounted"
+msgstr "Загрузка EPG невозможна, ваше устройство %s не смонтировано"
+
+msgid "EPG from linux-sat.tv (exUSSR)"
+msgstr "Загрузчик EPG linux-sat.tv (exUSSR)"
+
+msgid "Save epg.dat"
+msgstr "Сохранить epg.dat"
+
+msgid "Restore epg.dat"
+msgstr "Восстановить epg.dat"
+
+msgid "Reload epg.dat"
+msgstr "Перегрузить epg.dat"
+
+msgid "epg.dat reloaded"
+msgstr "epg.dat перезагружен"
+
+msgid "reload epg.dat failed"
+msgstr "ошибка перезагрузки epg.dat"
+
+msgid "epg.dat saved"
+msgstr "epg.dat сохранен"
+
+msgid "epg.dat restored"
+msgstr "epg.dat восстановлен"
+
+msgid "Config"
+msgstr "Настройка"
+
+msgid "EMicro Show in ExtentionMenu"
+msgstr "EMикро меню/расширенное меню"
+
+msgid "EMicro Panel in MainMenu"
+msgstr "EMикро в основном меню"
+
+msgid "SoftCam.Key Updater"
+msgstr "Загрузчик SoftCam.Key"
+
+msgid "Path to save keyfile"
+msgstr "Путь сохранения файла ключей"
+
+msgid "Name of keyfile"
+msgstr "Имя файла ключей"
+
+msgid "Download"
+msgstr "Загрузить"
+
+msgid "%s downloaded Successfull"
+msgstr "%s загружено"
+
+msgid "%s downloaded UnSuccessfull"
+msgstr "%s не загружено"
+
+msgid "Check if epg.dat exists"
+msgstr "Проверять наличиче epg.dat"

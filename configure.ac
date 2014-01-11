@@ -82,6 +82,14 @@ dreamexplorer/meta/Makefile
 dreamexplorer/src/Makefile
 dreamexplorer/src/res/Makefile
 
+empanel/Makefile
+empanel/meta/Makefile
+empanel/po/Makefile
+empanel/src/Makefile
+empanel/src/images/Makefile
+empanel/src_bin/Makefile
+empanel/src_script/Makefile
+
 hddmanager/Makefile
 hddmanager/meta/Makefile
 hddmanager/po/Makefile

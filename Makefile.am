@@ -4,6 +4,7 @@ SUBDIRS = \
 	alternativesoftcammanager \
 	autovolume \
 	dreamexplorer \
+	empanel \
 	hddmanager \
 	libgisclub \
 	networkbrowser \
