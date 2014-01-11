@@ -5,11 +5,11 @@
 	<info>
 		<author>2boom</author>
 		<name>Emicro Panel</name>
-		<packagename>enigma2-plugin-extensions-empanel</packagename>
+		<packagename>enigma2-plugin-extensions-em-panel</packagename>
 		<shortdescription>EMicro Panel for Open-Pli</shortdescription>
 		<description>EMicro Panel for Open-Pli.</description>
 	</info>
 	<files type="package">
-		<file type="package" name="enigma2-plugin-extensions-empanel" />
+		<file type="package" name="enigma2-plugin-extensions-em-panel" />
 	</files>
 </default>
