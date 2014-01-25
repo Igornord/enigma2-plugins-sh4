@@ -90,6 +90,16 @@ empanel/src/images/Makefile
 empanel/src_bin/Makefile
 empanel/src_script/Makefile
 
+extrachannelselection/Makefile
+extrachannelselection/meta/Makefile
+extrachannelselection/po/Makefile
+extrachannelselection/src/Makefile
+extrachannelselection/src/backup/Makefile
+extrachannelselection/src/images/Makefile
+extrachannelselection/src/script/Makefile
+extrachannelselection/src_comp/Makefile
+extrachannelselection/src_scr/Makefile
+
 hddmanager/Makefile
 hddmanager/meta/Makefile
 hddmanager/po/Makefile

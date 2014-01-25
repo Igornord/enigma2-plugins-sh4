@@ -1,0 +1,11 @@
+#!/bin/sh
+echo ""
+echo ""
+echo "********************************************************"
+echo "*          ExtraChannelSelection version 3.3           *"
+echo "*       Added percents to channel list and more        *"
+echo "*              a.k.a.  Uchkun  (c) 2013                *"
+echo "********************************************************"
+echo ""
+echo ""
+exit 0

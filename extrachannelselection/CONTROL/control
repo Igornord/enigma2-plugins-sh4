@@ -1,0 +1,8 @@
+Package: enigma2-plugin-systemplugins-extrachannelselection
+Version: 3.3
+Description: Plugin for change service list on channel selection by a.k.a. Uchkun
+Section: base
+Priority: optional
+Maintainer: a.k.a. Uchkun @
+License: a.k.a uchkun
+Architecture: sh4

@@ -5,6 +5,7 @@ SUBDIRS = \
 	autovolume \
 	dreamexplorer \
 	empanel \
+	extrachannelselection \
 	hddmanager \
 	libgisclub \
 	networkbrowser \

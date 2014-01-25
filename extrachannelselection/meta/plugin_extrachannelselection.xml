@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="Systemplugins" />
+	</prerequisites>
+	<info>
+		<author>a.k.a. Uchkun</author>
+		<name>Extra Channel Selection</name>
+		<packagename>enigma2-plugin-systemplugins-extrachannelselection</packagename>
+		<shortdescription>Change service list</shortdescription>
+		<description>Plugin for change service list of channel selection.</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-systemplugins-extrachannelselection" />
+	</files>
+</default>
