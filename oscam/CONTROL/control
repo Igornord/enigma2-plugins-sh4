@@ -1,0 +1,7 @@
+Package: enigma2-plugin-softcams-oscam
+Version: 1850
+Description: Oscam cardserver-softcam by yuriks
+Section: base
+Priority: optional
+Maintainer: Igornord (sh4)
+Architecture: sh4

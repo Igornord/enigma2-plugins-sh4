@@ -1,0 +1,27 @@
+#!/bin/sh
+case "$1" in
+start)
+	sleep 1 ; start-stop-daemon -S -b -x /usr/bin/oscam -c /etc/tuxbox/config
+	;;
+stop)
+        rm -rf /tmp/*.info /tmp/*.tmp /tmp/*oscam*
+	exec start-stop-daemon -K -R 2 -x /usr/bin/oscam
+        
+	;;
+restart|reload)
+	$0 stop
+	sleep 1
+	$0 start
+	;;
+version)
+	echo "1850"
+	;;
+info)
+	echo "oscam-yuriks-1850"
+	;;
+*)
+	echo "Usage: $0 start|stop|restart"
+	exit 1
+	;;
+esac
+exit 0

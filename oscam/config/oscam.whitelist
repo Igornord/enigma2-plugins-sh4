@@ -1,0 +1,33 @@
+#
+# whitelist table
+#
+# format:
+#
+#  whitelist:
+#   w:[CAiD][:][provider iD][:][service iD][:][ECM PiD][:][CHiD][:][ECM length]
+#
+#  ignore:
+#   i:[CAiD][:][provider iD][:][service iD][:][ECM PiD][:][CHiD][:][ECM length]
+#
+
+#w:0100       # whitelisting for CAiD 0100
+
+#i:0200:1234  # ignore CAiD 0200 with service iD 1234
+
+#i:::::2345   # ignore CHiD 2345
+
+#w:           # allow all others (blacklist)
+#i:0100::0FAB:0643 # NED1 SD
+#i:0100::0FAC:0644 # NED2 SD
+#i:0100::0FAD:0645 # NED3 SD
+#i:0100::07D4:0643 # RTL4 SD
+#i:0100::07D5:0644 # RTL5 SD
+#i:0100::0FA2:0641 # SBS6 SD
+#i:0100::07D6:0649 # RTL7 SD
+#i:0100::07F3:0710 # RTL8
+#i:0100::07EF:0647 # Veronica SD CDS
+#i:0100::0FA3:0642 # NET5 SD
+#i:0100::07F4:064D # Comedy Central / Kindernet
+#i:0100::31E7:03E3 # Een SD
+#i:0100::31E8:03E4 # Ketnet/Canvas SD
+#w: 

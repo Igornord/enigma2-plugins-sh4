@@ -126,6 +126,14 @@ networkbrowser/src/Makefile
 networkbrowser/src/icons/Makefile
 networkbrowser/src/lib/Makefile
 
+oscam/Makefile
+oscam/bin/Makefile
+oscam/config/Makefile
+oscam/init/Makefile
+oscam/keys/Makefile
+oscam/meta/Makefile
+
+
 osdadjustment/Makefile
 osdadjustment/meta/Makefile
 osdadjustment/src/Makefile

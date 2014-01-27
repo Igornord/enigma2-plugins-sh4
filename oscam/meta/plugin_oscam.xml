@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="Softcams" />
+	</prerequisites>
+	<info>
+		<author>Oscam</author>
+		<name>Cardserver Oscam</name>
+		<packagename>enigma2-plugin-softcams-oscam</packagename>
+		<shortdescription>Cardserver Oscam</shortdescription>
+		<description>Cardserver-Softcam Oscam for GI (8120, AVATAR etc.)</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-softcams-oscam" />
+	</files>
+</default>

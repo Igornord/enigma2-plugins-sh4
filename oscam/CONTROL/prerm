@@ -1,0 +1,12 @@
+#!/bin/sh
+/etc/init.d/cardserver.oscam stop
+OLDLINK=`readlink -f /etc/init.d/cardserver`
+if [ "${OLDLINK}" == "/etc/init.d/cardserver.oscam" ]
+then
+	echo "oscam was selected, now selecting None as cardserver"
+	rm -f /etc/init.d/cardserver
+	ln -s cardserver.None /etc/init.d/cardserver
+	rm /usr/bin/cam/oscam
+	rm /var/emu/oscam
+fi
+exit 0

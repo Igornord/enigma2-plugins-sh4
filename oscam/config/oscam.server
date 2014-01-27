@@ -1,0 +1,54 @@
+################################ настройки #####################################
+###########################   oscam-ymod 18.50  ################################
+
+[global]
+nice                          = -10
+WaitForCards                  = 1 
+#logfile                       = stdout
+clienttimeout                 = 8000
+fallbacktimeout               = 2000
+clientmaxidle                 = 9999999
+serialreadertimeout           = 4000
+setirdetoprov                 = 0
+logfile                       = syslog:IP компа
+################################ интерфейсы ####################################
+
+[monitor]
+Port                          = 988
+NoCrypt                       = 192.168.1.0-192.168.255.255
+AULow                         = 120
+MonLevel                      = 4
+appendchaninfo                = 1
+
+[webif]
+httpport                      = 8888
+httpallowed                   = 127.0.0.1,192.168.0.0-192.168.255.255
+
+ 
+#################### внешние ридеры на порты  #####################
+
+[name newcamd server port1;port2;port3;portN login parol д.п.]# протокол Newcamd
+#[name cccam server port login parol д.п.]# протокол Cccam
+#[name cs378x server port login parol д.п.]# протокол cs378x
+#[name cs357x server port login parol д.п.]# протокол cs357x
+################################ dvbapi ########################################
+
+[dvbapi]
+enabled                       = 1
+user                          = root
+boxtype                       = dreambox
+au                            = 1
+chaninfo                      = 1
+
+P: 0500:040600#NTV                     тут возможны
+P: 0500:040620#NTV, NTV+HD      варианты в зависимости
+P: 0500:050B00#NTV+HD              от шароварни
+P: 0500:023100#Футболы
+P: 4AE1:000011#Tricolor
+P: 2710:000000#Lybed
+P: 2710:000006#Lybed
+P: 0602:000000#Kontinent
+P: 0652:000000#Raduga
+P: 0B0F:000000#Xtra TV
+P: 2600:000000#BISS
+I: 0

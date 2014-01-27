@@ -10,6 +10,7 @@ SUBDIRS = \
 	libgisclub \
 	mgcamd \
 	networkbrowser \
+	oscam \
 	osdadjustment \
 	rucam \
 	settings36 \
