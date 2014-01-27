@@ -1,1 +1,1 @@
-SUBDIRS = meta po src src_bin src_script
+SUBDIRS = meta po src bin script

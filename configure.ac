@@ -87,8 +87,8 @@ empanel/meta/Makefile
 empanel/po/Makefile
 empanel/src/Makefile
 empanel/src/images/Makefile
-empanel/src_bin/Makefile
-empanel/src_script/Makefile
+empanel/bin/Makefile
+empanel/script/Makefile
 
 extrachannelselection/Makefile
 extrachannelselection/meta/Makefile
