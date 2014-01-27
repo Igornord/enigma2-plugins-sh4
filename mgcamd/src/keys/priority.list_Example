@@ -1,0 +1,104 @@
+#NTV+ ETELSAT 36E 
+V: { 03 06 00 }
+V: { 04 06 00 }
+
+#??? ??????
+V: { 02 3D 00 }
+
+#SRG SSR
+V: { 04 08 10 }
+
+#??? ???????
+V: { 02 31 00 }
+
+#Platforma HD 9E 3COLOR 36E
+X: { 4A E1 }
+
+#RTVi HB 13E    
+V: { 04 23 00 }
+
+#????????? HB 13E
+V: { 03 25 00 }
+V: { 04 27 00 }
+V: { 04 22 00 }
+V: { 04 17 00 }
+V: { 04 22 00 }
+V: { 04 38 00 }
+
+#BIS 13e
+V: { 04 28 00 }
+
+#Akta Satelit 4.8°E
+V: { 02 4F 00 }
+
+#AL Jazeera Sport HB 13E
+V: { 04 24 00 }
+
+#??????????? ??
+I: { 06 54 }
+I: { 00 77 }
+I: { 00 78 }
+ 
+#Nova   HB13E
+I: { 06 04 }
+I: { 00 00 }
+I: { 00 01 }
+I: { 00 02 }
+I: { 00 03 }
+
+#Kontinent TV
+I: { 06 02 }
+I: { 00 00 }
+I: { 00 03 }
+I: { 00 0C }
+I: { 00 11 }
+I: { 00 16 }
+I: { 00 20 }
+I: { 00 23 }
+I: { 00 32 }
+I: { 00 36 }
+I: { 00 40 }
+I: { 00 1A }
+I: { 00 1B }
+I: { 00 1E }
+
+#Hello HD
+X: { 0B AA }
+
+#Rikor and KabelKiosk
+X: { 0B 00 }
+
+#HD+
+X: { 18 43 }
+
+#CYFRA+ HB13E
+S: { 00 00 68 }
+
+#Canal SAT (France) ASTRA 19E
+S: { 00 33 11 }
+S: { 00 33 15 }
+
+#VIASAT(NDS) SIRIUS 5E
+X: { 09 0F }
+
+#SkyItaly  HB 13E
+X: { 09 3B}
+
+#Yes
+X: { 09 0d}
+
+#Sky DE
+X: { 17 02 }
+
+#Polsat
+X: { 18 03 }
+
+#THOR 1.0E
+X: { 0b 00 }
+
+#Raduga 75E
+I: { 00 15 }
+I: { FF FF }
+
+#digi turk 7e
+S: { 0D 00 }

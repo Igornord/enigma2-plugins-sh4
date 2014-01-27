@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="Softcams" />
+	</prerequisites>
+	<info>
+		<author>MgCamd</author>
+		<name>SoftCam MgCamd</name>
+		<packagename>enigma2-plugin-softcams-mgcamd</packagename>
+		<shortdescription>SoftCam MgCamd</shortdescription>
+		<description>SoftCam MgCamd for GI (8120, AVATAR etc.)</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-softcams-mgcamd" />
+	</files>
+</default>

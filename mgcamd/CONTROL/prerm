@@ -1,0 +1,10 @@
+#!/bin/sh
+	/etc/init.d/softcam.mgcamd stop
+	OLDLINK=`readlink -f /etc/init.d/softcam`
+	if [ "${OLDLINK}" == "/etc/init.d/softcam.mgcamd" ]
+	then
+		echo "mgcamd was selected, now selecting None as softcam"
+		rm -f /etc/init.d/softcam
+		ln -s softcam.None /etc/init.d/softcam
+	fi
+exit 0

@@ -112,6 +112,13 @@ libgisclub/src/Converter/Makefile
 libgisclub/src/Renderer/Makefile
 libgisclub/src/bitratecalc/Makefile
 
+mgcamd/Makefile
+mgcamd/meta/Makefile
+mgcamd/src/Makefile
+mgcamd/src/bin/Makefile
+mgcamd/src/init/Makefile
+mgcamd/src/keys/Makefile
+
 networkbrowser/Makefile
 networkbrowser/meta/Makefile
 networkbrowser/po/Makefile

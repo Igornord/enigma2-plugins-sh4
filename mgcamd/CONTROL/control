@@ -1,0 +1,6 @@
+Package: enigma2-plugin-softcams-mgcamd
+Version: 1.38c
+Description: mgcamd 1.38 softcam
+Section: base
+Architecture: sh4
+Depends: softcamsupport

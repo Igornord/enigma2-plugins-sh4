@@ -8,6 +8,7 @@ SUBDIRS = \
 	extrachannelselection \
 	hddmanager \
 	libgisclub \
+	mgcamd \
 	networkbrowser \
 	osdadjustment \
 	rucam \
