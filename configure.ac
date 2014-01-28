@@ -73,6 +73,11 @@ alternativesoftcammanager/po/Makefile
 alternativesoftcammanager/src/Makefile
 alternativesoftcammanager/src/images/Makefile
 
+automaticvolumeadjustment/Makefile
+automaticvolumeadjustment/meta/Makefile
+automaticvolumeadjustment/po/Makefile
+automaticvolumeadjustment/src/Makefile
+
 autovolume/Makefile
 autovolume/meta/Makefile
 autovolume/src/Makefile
