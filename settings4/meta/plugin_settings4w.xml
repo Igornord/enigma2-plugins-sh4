@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="Settings" />
+	</prerequisites>
+	<info>
+		<author>Igornord</author>
+		<name>Settings for 4w,4.8e, 13ee</name>
+		<packagename>enigma2-plugin-settings-4w-13e</packagename>
+		<shortdescription>Settings for 4W, 4.8E, 13E</shortdescription>
+		<description>Settings for 4-5-13 (lamedb and bouquet's)</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-settings-4w-13e" />
+	</files>
+</default>
