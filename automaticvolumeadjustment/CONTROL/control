@@ -1,2 +1,6 @@
+Package: enigma2-plugin-systemplugins-automaticvolumeadjustment
+Version: 1.0
 Description: Automatic Volume Adjustment
-Depends: enigma2
+Section: extra
+Maintainer: Igornord
+Architecture: sh4
