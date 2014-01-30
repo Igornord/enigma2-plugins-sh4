@@ -7,7 +7,7 @@
 	[ -e $D/usr/keys/ignore.list ] || mv $D/usr/keys/ignore.list_Example $D/usr/keys/ignore.list
 	[ -e $D/usr/keys/priority.list ] || mv $D/usr/keys/priority.list_Example $D/usr/keys/priority.list
 	[ -e $D/usr/keys/replace.list ] || mv $D/usr/keys/replace.list_Example $D/usr/keys/replace.list
-	[ -e $D/usr/keys/SoftCam.Key ] || mv $D/usr/keys/SoftCam.Key_Example $D/usr/keys/SoftCam.Key
+	[ -e $D/usr/keys/SoftCam.Key ] || mv $D/usr/keys/SoftCam.Key_ExampleM $D/usr/keys/SoftCam.Key
 	[ -e $D/usr/keys/AutoRoll.Key ] || mv $D/usr/keys/AutoRoll.Key_Example $D/usr/keys/AutoRoll.Key
 	ln -s $D/usr/bin/mgcamd $D/usr/bin/cam/mgcamd
 	ln -s $D/usr/bin/mgcamd $D/var/emu/mgcamd
