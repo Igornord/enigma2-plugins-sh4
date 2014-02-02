@@ -1,4 +1,4 @@
-PLUGIN = EM-Panel
+PLUGIN = EMPanel
 CATEGORY = Extensions
 LANGS = ru
 
