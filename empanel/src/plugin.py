@@ -49,10 +49,10 @@ lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
 gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
 gettext.textdomain("enigma2")
-gettext.bindtextdomain("EMPanel", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "Extensions/EM-Panel/locale/"))
+gettext.bindtextdomain("EM-Panel", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "Extensions/EM-Panel/locale/"))
 
 def _(txt):
-	t = gettext.dgettext("EMPanel", txt)
+	t = gettext.dgettext("EM-Panel", txt)
 	if t == txt:
 		t = gettext.gettext(txt)
 	return t
