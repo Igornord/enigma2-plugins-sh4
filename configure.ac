@@ -113,7 +113,6 @@ hddmanager/src/Makefile
 hdmicec/Makefile
 hdmicec/meta/Makefile
 hdmicec/src/Makefile
-hdmicec/src/Makefile
 hdmicec/src/components/Makefile
 hdmicec/src/plugin/Makefile
 
