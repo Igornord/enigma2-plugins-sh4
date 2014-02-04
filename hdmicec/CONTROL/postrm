@@ -1,3 +1,4 @@
 #!/bin/sh
+rm -f /usr/lib/enigma2/python/Components/HdmiCec.pyo
 rm -rf /usr/lib/enigma2/python/Plugins/SystemPlugins/HdmiCEC
 exit 0
