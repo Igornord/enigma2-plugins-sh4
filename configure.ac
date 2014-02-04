@@ -112,9 +112,8 @@ hddmanager/src/Makefile
 
 hdmicec/Makefile
 hdmicec/meta/Makefile
-hdmicec/src/Makefile
-hdmicec/src/components/Makefile
-hdmicec/src/plugin/Makefile
+hdmicec/Components/Makefile
+hdmicec/Plugin/Makefile
 
 libgisclub/Makefile
 libgisclub/meta/Makefile

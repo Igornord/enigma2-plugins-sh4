@@ -1,1 +1,1 @@
-SUBDIRS = src meta
+SUBDIRS = Components Plugin meta
