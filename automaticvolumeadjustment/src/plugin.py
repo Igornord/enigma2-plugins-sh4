@@ -21,7 +21,7 @@
 #  distributed other than under the conditions noted above.
 #
 # for localized messages
-from . import _
+# from . import _
 
 from Plugins.Plugin import PluginDescriptor
 from AutomaticVolumeAdjustmentSetup import AutomaticVolumeAdjustmentConfigScreen
