@@ -1,4 +1,4 @@
 
 installdir = $(libdir)/enigma2/python/Components
 
-install_PYTHON = *.py
+install_DATA = *.py
