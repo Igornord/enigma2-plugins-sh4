@@ -3,4 +3,4 @@ Version: 1.38c
 Description: mgcamd 1.38 softcam
 Section: base
 Architecture: sh4
-Depends: softcamsupport
+Depends: softcam-support

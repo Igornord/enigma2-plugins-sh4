@@ -4,5 +4,5 @@ Description: softcamsetup-mod
 Section: base
 Priority: optional
 Maintainer: Dima73 <Dima-73@inbox.lv>
-Depends: softcamsupport,cardserversupport
+Depends: softcam-support,cardserver-support
 Architecture: sh4

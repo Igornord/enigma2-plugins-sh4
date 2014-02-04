@@ -3,5 +3,5 @@ Version: 0.3
 Section: base
 Architecture: sh4
 Maintainer: igorkag@gmail.com
-Depends: softcamsupport
+Depends: softcam-support
 Description: Rucam softcam

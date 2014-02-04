@@ -3,5 +3,5 @@ Version: 1.16
 Section: base
 Architecture: sh4
 Maintainer: ooolexa@gmail.com
-Depends: cardserversupport
+Depends: cardserver-support
 Description: Wicardd softcam-cardserver

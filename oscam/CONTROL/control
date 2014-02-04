@@ -4,4 +4,5 @@ Description: Oscam cardserver-softcam by yuriks
 Section: base
 Priority: optional
 Maintainer: Igornord (sh4)
+Depends: cardserver-support
 Architecture: sh4
