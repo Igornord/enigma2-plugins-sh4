@@ -22,7 +22,8 @@ TRIKOLOR = [ (11727000, 0), (11766000, 0), (11804000, 0), (11843000, 0), (118810
 AKTIV = [ (11635000, 1), (11675000, 1) ]
 RADUGA = [ (12518000, 1), (12548000, 1), (12610000, 1), (12640000, 1), (12670000, 1), (12704000, 1), (12732000, 1) ]
 KONTINENT = [ (11720000, 0), (11960000, 0), (12000000, 0), (12080000, 0), (12120000, 0), (12160000, 0), (12600000, 1), (12640000, 1) ]
-XTRA = [ (11336000, 0), (11258000,0), (11222000,0) ]
+XTRA = [ (11336000,0), (11258000,0), (11222000,0) ]
+LYBID = [ (11747000, 1), (12169000, 1) ]
 class TranspondersList(Screen):
 	skin = """
 	<screen position="center,center" size="400,450" title="Transponders list" >
@@ -317,6 +318,12 @@ class SimpleSatScan(ConfigListScreen, Screen):
 					elif self.provider_list.value == "tricolor":
 						orbpos = 360
 						providerList = TRIKOLOR
+					elif self.provider_list.value == "lybid":
+						orbpos = 360
+						providerList = LYBID
+					elif self.provider_list.value == "xtra":
+						orbpos = 3560
+						providerList = XTRA
 					elif self.provider_list.value == "aktiv":
 						orbpos = 600
 						providerList = AKTIV
@@ -465,6 +472,9 @@ class SimpleSatScan(ConfigListScreen, Screen):
 					if sat[0] == 360:
 						satchoises.append(("ntv", _("NTV Plus")))
 						satchoises.append(("tricolor", _("Tricolor TV")))
+						satchoises.append(("lybid", _("Lybid TV ")))
+					elif sat[0] == 3560:
+						satchoises.append(("xtra", _("Xtra TV")))
 					elif sat[0] == 600:
 						satchoises.append(("aktiv", _("Aktiv TV")))
 					elif sat[0] == 750:
@@ -691,7 +701,7 @@ class SimpleSatScan(ConfigListScreen, Screen):
 	def providersSat(self):
 		providers_sat = False
 		for sat in nimmanager.satList:
-			if sat[0] == 360 or sat[0] == 600 or sat[0] == 750 or sat[0] == 850:
+			if sat[0] == 360 or sat[0] == 600 or sat[0] == 750 or sat[0] == 850 or sat[0] == 3560:
 				#print "%s" % sat[0]
 				providers_sat = True
 				break
@@ -801,6 +811,12 @@ class SimpleSatScan(ConfigListScreen, Screen):
 					elif self.provider_list.value == "tricolor":
 						orbpos = 360
 						providerList = TRIKOLOR
+					elif self.provider_list.value == "lybid":
+						orbpos = 360
+						providerList = LYBID
+					elif self.provider_list.value == "xtra":
+						orbpos = 3560
+						providerList = XTRA
 					elif self.provider_list.value == "aktiv":
 						orbpos = 600
 						providerList = AKTIV
