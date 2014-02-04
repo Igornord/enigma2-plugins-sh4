@@ -110,6 +110,13 @@ hddmanager/meta/Makefile
 hddmanager/po/Makefile
 hddmanager/src/Makefile
 
+hdmicec/Makefile
+hdmicec/meta/Makefile
+hdmicec/src/Makefile
+hdmicec/src/Makefile
+hdmicec/src/components/Makefile
+hdmicec/src/plugin/Makefile
+
 libgisclub/Makefile
 libgisclub/meta/Makefile
 libgisclub/src/Makefile
@@ -160,6 +167,11 @@ settings36_4/src/Makefile
 settings4/Makefile
 settings4/meta/Makefile
 settings4/src/Makefile
+
+simplesatscan/Makefile
+simplesatscan/meta/Makefile
+simplesatscan/po/Makefile
+simplesatscan/src/Makefile
 
 softcamsetup/Makefile
 softcamsetup/meta/Makefile

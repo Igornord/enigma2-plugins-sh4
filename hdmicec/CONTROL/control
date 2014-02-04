@@ -1,0 +1,7 @@
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: 20140203
+Description: HdmiCec Plugin.
+Section : base
+Priority: optional
+Maintainer: Ar-P Team
+Architecture: sh4

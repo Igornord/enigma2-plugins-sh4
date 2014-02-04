@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="Systemplugins" />
+	</prerequisites>
+	<info>
+		<author>vlamo</author>
+		<name>Simple Sat Scan</name>
+		<packagename>enigma2-plugin-systemplugins-simplesatscan</packagename>
+		<shortdescription>Simple Sat Scan with satfinder</shortdescription>
+		<description>Plugin for sat scan with featuring scan russian provider.</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-systemplugins-simplesatscan" />
+	</files>
+</default>

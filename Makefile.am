@@ -8,6 +8,7 @@ SUBDIRS = \
 	empanel \
 	extrachannelselection \
 	hddmanager \
+	hdmicec \
 	libgisclub \
 	mgcamd \
 	networkbrowser \
@@ -17,6 +18,7 @@ SUBDIRS = \
 	settings36 \
 	settings36_4 \
 	settings4 \
+	simplesatscan \
 	softcamsetup \
 	wicardd \
 	vfd_max \

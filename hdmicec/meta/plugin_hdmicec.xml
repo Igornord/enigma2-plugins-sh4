@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="Systemplugins" />
+	</prerequisites>
+	<info>
+		<author>Ar-P Team</author>
+		<name>SystemPlugin HDMI-CEC</name>
+		<packagename>enigma2-plugin-extensions-hdmicec</packagename>
+		<shortdescription>SystemPlugin HDMI-CEC</shortdescription>
+		<description>SystemPlugin HDMI-CEC</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-extensions-hdmicec" />
+	</files>
+</default>
