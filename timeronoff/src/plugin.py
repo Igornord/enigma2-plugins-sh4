@@ -42,10 +42,10 @@ lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
 gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
 gettext.textdomain("enigma2")
-gettext.bindtextdomain("timeronoff", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "Extensions/TimerOnOff/locale/"))
+gettext.bindtextdomain("TimerOnOff", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "Extensions/TimerOnOff/locale/"))
 
 def _(txt):
-	t = gettext.dgettext("timeronoff", txt)
+	t = gettext.dgettext("TimerOnOff", txt)
 	if t == txt:
 		t = gettext.gettext(txt)
 	return t
