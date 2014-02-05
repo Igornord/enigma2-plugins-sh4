@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: timer on-off\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-29 01:13+0100\n"
+"PO-Revision-Date: 2012-09-09 12:48+0200\n"
+"Last-Translator: 2boom <4bob@ua.fm>\n"
+"Language-Team:  <4bob@ua.fm>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Language: ru_UA\n"
+
+msgid "Wakeup"
+msgstr "Включение"
+
+msgid "DeepStandby"
+msgstr "Полное отключение"
+
+msgid "Standby/Wakeup"
+msgstr "Включение/Отключение"
+
+msgid "Su"
+msgstr "Вс"
+
+msgid "Mo"
+msgstr "Пн"
+
+msgid "Tu"
+msgstr "Вт"
+
+msgid "We"
+msgstr "Ср"
+
+msgid "Th"
+msgstr "Чт"
+
+msgid "Fr"
+msgstr "Пт"
+
+msgid "Sa"
+msgstr "Суб"
+
+msgid "Weekdays"
+msgstr "Будни"
+
+msgid "Weekend"
+msgstr "Выходные"
+
+msgid "Set time to stanby/wakeup"
+msgstr "Установка времени Включения/Отключения"
+
+msgid "Set current channel at wakeup"
+msgstr "Установка текущего канала при включении"
+
+msgid "Set mode"
+msgstr "Установка режима"
+
+msgid "Set time to wakeup"
+msgstr "Установка времени включения"
+
+msgid "Turn on second stanby timer"
+msgstr "Включить второй таймер"
+
+msgid "Set time to standby/deepstanby #1"
+msgstr "Установка времени ждущего режима/полного отключения #1"
+
+msgid "Set time to standby/deepstanby #2"
+msgstr "Установка времени ждущего режима/полного отключения #2"
+
+msgid "Set day of week"
+msgstr "День недели"
+
+msgid "Type box password, if you have it"
+msgstr "Пароль, если он установлен"
+
+msgid "configuration is saved"
+msgstr "конфигурация сохранена"
+
+msgid "set time to stanby/wakeup"
+msgstr "установка времени Включения/Отключения"
+
+msgid "Set wakeup volume (0-99)"
+msgstr "Громкость включения (0-99)"
+
+msgid "On/Off timer"
+msgstr "Таймер Включения/Отключения"

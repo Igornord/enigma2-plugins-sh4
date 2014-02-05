@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="System" />
+	</prerequisites>
+	<info>
+		<author>2boom</author>
+		<name>Timer On Off</name>
+		<packagename>enigma2-plugin-extensions-timeronoff</packagename>
+		<shortdescription>Timer On Off</shortdescription>
+		<description>On/Off your STB in set time.</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-extensions-timeronoff" />
+	</files>
+</default>

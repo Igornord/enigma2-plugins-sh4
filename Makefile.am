@@ -20,6 +20,7 @@ SUBDIRS = \
 	settings4 \
 	simplesatscan \
 	softcamsetup \
+	timeronoff \
 	wicardd \
 	vfd_max \
 	vfd_min

@@ -1,0 +1,9 @@
+Package: enigma2-plugin-extensions-timeroff
+Version: 0.4-r1
+Description: Time on/off plugin by 2boom
+Section: base
+Priority: optional
+Maintainer: 2boom
+License: GPL
+Architecture: sh4
+Homepage: 4bob@ua.fm

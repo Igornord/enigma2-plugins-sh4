@@ -177,6 +177,12 @@ softcamsetup/po/Makefile
 softcamsetup/src/Makefile
 softcamsetup/src/images/Makefile
 
+timeronoff/Makefile
+timeronoff/meta/Makefile
+timeronoff/po/Makefile
+timeronoff/src/Makefile
+timeronoff/src/images/Makefile
+
 wicardd/Makefile
 wicardd/meta/Makefile
 wicardd/src/Makefile
