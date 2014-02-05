@@ -27,11 +27,11 @@ lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
 gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
 gettext.textdomain("enigma2")
-gettext.bindtextdomain("ExtraChannelSelectionSetup", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "SystemPlugins/ExtraChannelSelection/locale/"))
+gettext.bindtextdomain("ExtraChannelSelection", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "SystemPlugins/ExtraChannelSelection/locale/"))
 
 
 def _(txt):
-	t = gettext.dgettext("ExtraChannelSelectionSetup", txt)
+	t = gettext.dgettext("ExtraChannelSelection", txt)
 	if t == txt:
 		t = gettext.gettext(txt)
 	return t
