@@ -4,7 +4,7 @@
 	</prerequisites>
 	<info>
 		<author>Dima-73</author>
-		<name>SosftcamSetup</name>
+		<name>SoftcamSetup</name>
 		<packagename>enigma2-plugin-extensions-softcamsetup</packagename>
 		<shortdescription>Softcam and cardserver manager</shortdescription>
 		<description>Softcam and cardserver manager</description>
