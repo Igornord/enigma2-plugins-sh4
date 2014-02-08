@@ -1,0 +1,60 @@
+<keymap>
+
+	<map context="UpDownActions">
+		<key id="KEY_UP" mapto="up" flags="m" />
+		<key id="KEY_DOWN" mapto="down" flags="m" />
+		<key id="KEY_UP" mapto="upRepeated" flags="r" />
+		<key id="KEY_DOWN" mapto="downRepeated" flags="r" />
+		<key id="KEY_UP" mapto="upUp" flags="b" />
+		<key id="KEY_DOWN" mapto="downUp" flags="b" />
+	</map>
+
+	<map context="RightLeftActions">
+		<key id="KEY_LEFT" mapto="leftUp" flags="b" />
+		<key id="KEY_RIGHT" mapto="rightUp" flags="b" />
+		<key id="KEY_LEFT" mapto="leftRepeated" flags="r" />
+		<key id="KEY_RIGHT" mapto="rightRepeated" flags="r" />
+		<key id="KEY_LEFT" mapto="left" flags="m" />
+		<key id="KEY_RIGHT" mapto="right" flags="m" />
+	</map>
+
+	<map context="SubtitlesActions">
+		<key id="KEY_SUBTITLE" mapto="subtitles" flags="m" />
+		<key id="KEY_TEXT" mapto="subtitles" flags="m" />
+		<key id="KEY_RADIO" mapto="subtitles" flags="m" />
+	</map>
+
+	<map context="InfobarAspectChangeActions">
+		<key id="KEY_ZOOM" mapto="aspectChange" flags="m" />
+		<key id="KEY_5" mapto="aspectChange" flags="m" />
+	</map>
+
+	<map context="MediaPlayer2Actions">
+		<key id="KEY_INFO" mapto="info" flags="m" />
+		<key id="KEY_YELLOW" mapto="pause" flags="m" />
+		<key id="KEY_GREEN" mapto="play" flags="m" />
+		<key id="KEY_PREVIOUS" mapto="previous" flags="m" />
+		<key id="KEY_NEXT" mapto="next" flags="m" />
+		<key id="KEY_PLAYPAUSE" mapto="pause" flags="m" />
+		<key id="KEY_PLAY" mapto="pause" flags="m" />
+		<key id="KEY_EXIT" mapto="stop" flags="b" />
+		<key id="KEY_STOP" mapto="stop" flags="b" />
+		<key id="KEY_STOP" mapto="shift_stop" flags="l" />
+		<key id="KEY_RECORD" mapto="shift_record" flags="l" />
+		<key id="KEY_TV" mapto="refreshSubs" flags="m" />
+		<key id="KEY_PREVIOUS" mapto="previous" flags="m" />
+		<key id="KEY_NEXT" mapto="next" flags="m" />
+		<key id="KEY_RED" mapto="previous" flags="m" />
+		<key id="KEY_BLUE" mapto="next" flags="m" />
+		<key id="KEY_PAUSE" mapto="pause" flags="m" />
+		<key id="KEY_PLAY" mapto="play" flags="m" />
+		<key id="KEY_MENU" mapto="menu" flags="m" />
+		<key id="KEY_2" mapto="skipListbegin" flags="m" />
+		<key id="KEY_8" mapto="skipListend" flags="m" />
+		<key id="KEY_CHANNELUP" mapto="nextBouquet" flags="m" />
+		<key id="KEY_CHANNELDOWN" mapto="prevBouquet" flags="m" />
+		<key id="KEY_VIDEO" mapto="delete" flags="m" />
+		<key id="KEY_AUDIO" mapto="audioSelection" flags="m" />
+	</map>
+
+</keymap>

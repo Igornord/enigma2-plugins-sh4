@@ -1,0 +1,15 @@
+<default>
+	  <prerequisites>
+                    <tag type="Multimedia" />
+	  </prerequisites>
+          <info>
+                    <author>mx3Lm...@gmail.com</author>
+                    <name>MediaPlayer2</name>
+                    <packagename>enigma2-plugin-extensions-mediaplayer2</packagename>
+                    <shortdescription>Plays your favorite music and videos</shortdescription>
+                    <description>MediaPlayer with external subtitle support.</description>
+          </info>
+	  <files type="package">
+		<file type="package" name="enigma2-plugin-extensions-mediaplayer2" />
+	  </files>
+</default>

@@ -129,6 +129,14 @@ mgcamd/src/bin/Makefile
 mgcamd/src/init/Makefile
 mgcamd/src/keys/Makefile
 
+mediaplayer2/Makefile
+mediaplayer2/meta/Makefile
+mediaplayer2/po/Makefile
+mediaplayer2/src/Makefile
+mediaplayer2/src/subtitles/Makefile
+mediaplayer2/src/subtitles/fonts/Makefile
+mediaplayer2/src/subtitles/parsers/Makefile
+
 networkbrowser/Makefile
 networkbrowser/meta/Makefile
 networkbrowser/po/Makefile

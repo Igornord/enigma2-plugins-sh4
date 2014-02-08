@@ -11,6 +11,7 @@ SUBDIRS = \
 	hdmicec \
 	libgisclub \
 	mgcamd \
+	mediaplayer2 \
 	networkbrowser \
 	oscam \
 	osdadjustment \

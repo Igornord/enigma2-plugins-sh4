@@ -1,0 +1,9 @@
+Package: enigma2-plugin-extensions-mediaplayer2
+Version: 0.46_20140205
+Architecture: sh4
+Section: extra
+Priority: optional
+Maintainer: mxfitsat@gmail.com
+Homepage: https://code.google.com/p/mediaplayer2-for-sh4/
+Source: https://code.google.com/p/mediaplayer2-for-sh4/
+Description: MediaPlayer with external subtitle support  0.46_20140205"
