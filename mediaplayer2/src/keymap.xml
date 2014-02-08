@@ -51,8 +51,8 @@
 		<key id="KEY_MENU" mapto="menu" flags="m" />
 		<key id="KEY_2" mapto="skipListbegin" flags="m" />
 		<key id="KEY_8" mapto="skipListend" flags="m" />
-		<key id="KEY_CHANNELUP" mapto="nextBouquet" flags="m" />
-		<key id="KEY_CHANNELDOWN" mapto="prevBouquet" flags="m" />
+		<key id="KEY_PAGEUP" mapto="nextBouquet" flags="m" />
+		<key id="KEY_PAGEDOWN" mapto="prevBouquet" flags="m" />
 		<key id="KEY_VIDEO" mapto="delete" flags="m" />
 		<key id="KEY_AUDIO" mapto="audioSelection" flags="m" />
 	</map>
