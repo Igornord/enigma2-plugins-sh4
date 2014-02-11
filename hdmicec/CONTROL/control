@@ -4,4 +4,5 @@ Description: HdmiCec Plugin.
 Section : base
 Priority: optional
 Maintainer: Ar-P Team
+Depends: driver-cec
 Architecture: sh4
