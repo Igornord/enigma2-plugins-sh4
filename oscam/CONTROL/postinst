@@ -2,22 +2,22 @@
 	[ -d $D/usr/bin/cam ] || mkdir $D/usr/bin/cam
 	[ -d $D/var/emu ] || mkdir $D/var/emu
 	[ -d $D/var/keys ] || ln -s $D/usr/keys $D/var/keys
-	[ -d $D/etc/tuxbox/config/oscam.ac ] || mv $D/etc/tuxbox/config/oscam.ac_ $D/etc/tuxbox/config/oscam.ac
-	[ -d $D/etc/tuxbox/config/oscam.cacheex ] || mv $D/etc/tuxbox/config/oscam.cacheex_ $D/etc/tuxbox/config/oscam.cacheex
-	[ -d $D/etc/tuxbox/config/oscam.cert ] || mv $D/etc/tuxbox/config/oscam.cert_ $D/etc/tuxbox/config/oscam.cert
-	[ -d $D/etc/tuxbox/config/oscam.conf ] || mv $D/etc/tuxbox/config/oscam.conf_ $D/etc/tuxbox/config/oscam.conf
-	[ -d $D/etc/tuxbox/config/oscam.dvbapi ] || mv $D/etc/tuxbox/config/oscam.dvbapi_ $D/etc/tuxbox/config/oscam.dvbapi
-	[ -d $D/etc/tuxbox/config/oscam.guess ] || mv $D/etc/tuxbox/config/oscam.guess_ $D/etc/tuxbox/config/oscam.guess
-	[ -d $D/etc/tuxbox/config/oscam.ird ] || mv $D/etc/tuxbox/config/oscam.ird_ $D/etc/tuxbox/config/oscam.ird
-	[ -d $D/etc/tuxbox/config/oscam.pem ] || mv $D/etc/tuxbox/config/oscam.pem_ $D/etc/tuxbox/config/oscam.pem
-	[ -d $D/etc/tuxbox/config/oscam.provid ] || mv $D/etc/tuxbox/config/oscam.provid_ $D/etc/tuxbox/config/oscam.provid
-	[ -d $D/etc/tuxbox/config/oscam.server ] || mv $D/etc/tuxbox/config/oscam.server_ $D/etc/tuxbox/config/oscam.server
-	[ -d $D/etc/tuxbox/config/oscam.services ] || mv $D/etc/tuxbox/config/oscam.services_ $D/etc/tuxbox/config/oscam.services
-	[ -d $D/etc/tuxbox/config/oscam.srvid ] || mv $D/etc/tuxbox/config/oscam.srvid_ $D/etc/tuxbox/config/oscam.srvid
-	[ -d $D/etc/tuxbox/config/oscam.tiers ] || mv $D/etc/tuxbox/config/oscam.tiers_ $D/etc/tuxbox/config/oscam.tiers
-	[ -d $D/etc/tuxbox/config/oscam.user ] || mv $D/etc/tuxbox/config/oscam.user_ $D/etc/tuxbox/config/oscam.user
-	[ -d $D/etc/tuxbox/config/oscam.whitelist ] || mv $D/etc/tuxbox/config/oscam.whitelist_ $D/etc/tuxbox/config/oscam.whitelist
-	[ -d $D/usr/keys/SoftCam.Key ] || mv $D/usr/keys/SoftCam.Key_Oscam $D/usr/keys/SoftCam.Key
+	[ -f $D/etc/tuxbox/config/oscam.ac ] || mv $D/etc/tuxbox/config/oscam.ac_ $D/etc/tuxbox/config/oscam.ac
+	[ -f $D/etc/tuxbox/config/oscam.cacheex ] || mv $D/etc/tuxbox/config/oscam.cacheex_ $D/etc/tuxbox/config/oscam.cacheex
+	[ -f $D/etc/tuxbox/config/oscam.cert ] || mv $D/etc/tuxbox/config/oscam.cert_ $D/etc/tuxbox/config/oscam.cert
+	[ -f $D/etc/tuxbox/config/oscam.conf ] || mv $D/etc/tuxbox/config/oscam.conf_ $D/etc/tuxbox/config/oscam.conf
+	[ -f $D/etc/tuxbox/config/oscam.dvbapi ] || mv $D/etc/tuxbox/config/oscam.dvbapi_ $D/etc/tuxbox/config/oscam.dvbapi
+	[ -f $D/etc/tuxbox/config/oscam.guess ] || mv $D/etc/tuxbox/config/oscam.guess_ $D/etc/tuxbox/config/oscam.guess
+	[ -f $D/etc/tuxbox/config/oscam.ird ] || mv $D/etc/tuxbox/config/oscam.ird_ $D/etc/tuxbox/config/oscam.ird
+	[ -f $D/etc/tuxbox/config/oscam.pem ] || mv $D/etc/tuxbox/config/oscam.pem_ $D/etc/tuxbox/config/oscam.pem
+	[ -f $D/etc/tuxbox/config/oscam.provid ] || mv $D/etc/tuxbox/config/oscam.provid_ $D/etc/tuxbox/config/oscam.provid
+	[ -f $D/etc/tuxbox/config/oscam.server ] || mv $D/etc/tuxbox/config/oscam.server_ $D/etc/tuxbox/config/oscam.server
+	[ -f $D/etc/tuxbox/config/oscam.services ] || mv $D/etc/tuxbox/config/oscam.services_ $D/etc/tuxbox/config/oscam.services
+	[ -f $D/etc/tuxbox/config/oscam.srvid ] || mv $D/etc/tuxbox/config/oscam.srvid_ $D/etc/tuxbox/config/oscam.srvid
+	[ -f $D/etc/tuxbox/config/oscam.tiers ] || mv $D/etc/tuxbox/config/oscam.tiers_ $D/etc/tuxbox/config/oscam.tiers
+	[ -f $D/etc/tuxbox/config/oscam.user ] || mv $D/etc/tuxbox/config/oscam.user_ $D/etc/tuxbox/config/oscam.user
+	[ -f $D/etc/tuxbox/config/oscam.whitelist ] || mv $D/etc/tuxbox/config/oscam.whitelist_ $D/etc/tuxbox/config/oscam.whitelist
+	[ -f $D/usr/keys/SoftCam.Key ] || mv $D/usr/keys/SoftCam.Key_Oscam $D/usr/keys/SoftCam.Key
 	ln -s $D/usr/bin/oscam $D/usr/bin/cam/oscam
 	ln -s $D/usr/bin/oscam $D/var/emu/oscam
 # Следующие строки закомментированы в связи с необходимостью отмены автозапуска Wicardd
