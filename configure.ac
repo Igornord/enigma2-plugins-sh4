@@ -179,6 +179,12 @@ simplesatscan/meta/Makefile
 simplesatscan/po/Makefile
 simplesatscan/src/Makefile
 
+shootyourscreen/Makefile
+shootyourscreen/meta/Makefile
+shootyourscreen/po/Makefile
+shootyourscreen/src/Makefile
+shootyourscreen/src/pic/Makefile
+
 softcamsetup/Makefile
 softcamsetup/meta/Makefile
 softcamsetup/po/Makefile

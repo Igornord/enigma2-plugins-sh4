@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="Display" />
+	</prerequisites>
+	<info>
+		<author>OE-Core Developpers</author>
+		<name>ShootYourScreen</name>
+		<packagename>enigma2-plugin-extensions-shootyourscreen</packagename>
+		<shortdescription>Create screenshots with remote control of your STB.</shortdescription>
+		<description>Create screenshots with remote control of your STB.</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-extensions-alternativesoftcammanager" />
+	</files>
+</default>

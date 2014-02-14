@@ -1,0 +1,9 @@
+Package: enigma2-plugin-extensions-shootyourscreen
+Version: 0.2+git4+5c315c6-r0
+Description: Create screenshots with remote control of your STB
+Section: base
+Priority: optional
+Maintainer: Igornord
+License: GPLv2
+Architecture: sh4
+Depends: aio-grab

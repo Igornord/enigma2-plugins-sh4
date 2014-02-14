@@ -20,6 +20,7 @@ SUBDIRS = \
 	settings36_4 \
 	settings4 \
 	simplesatscan \
+	shootyourscreen \
 	softcamsetup \
 	timeronoff \
 	wicardd \
