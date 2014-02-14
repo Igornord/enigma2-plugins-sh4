@@ -22,16 +22,15 @@
 		<key id="KEY_SUBTITLE" mapto="subtitles" flags="m" />
 		<key id="KEY_TEXT" mapto="subtitles" flags="m" />
 		<key id="KEY_RADIO" mapto="subtitles" flags="m" />
+		<key id="KEY_YELLOW" mapto="subtitles" flags="m" />
 	</map>
 
 	<map context="InfobarAspectChangeActions">
-		<key id="KEY_ZOOM" mapto="aspectChange" flags="m" />
-		<key id="KEY_5" mapto="aspectChange" flags="m" />
+		<key id="KEY_VIDEO" mapto="aspectChange" flags="m" />
 	</map>
 
 	<map context="MediaPlayer2Actions">
 		<key id="KEY_INFO" mapto="info" flags="m" />
-		<key id="KEY_YELLOW" mapto="pause" flags="m" />
 		<key id="KEY_GREEN" mapto="play" flags="m" />
 		<key id="KEY_PREVIOUS" mapto="previous" flags="m" />
 		<key id="KEY_NEXT" mapto="next" flags="m" />
@@ -53,7 +52,6 @@
 		<key id="KEY_8" mapto="skipListend" flags="m" />
 		<key id="KEY_PAGEUP" mapto="nextBouquet" flags="m" />
 		<key id="KEY_PAGEDOWN" mapto="prevBouquet" flags="m" />
-		<key id="KEY_VIDEO" mapto="delete" flags="m" />
 		<key id="KEY_AUDIO" mapto="audioSelection" flags="m" />
 	</map>
 
