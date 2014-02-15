@@ -4,6 +4,4 @@ Description: Create screenshots with remote control of your STB
 Section: base
 Priority: optional
 Maintainer: Igornord
-License: GPLv2
 Architecture: sh4
-Depends: aio-grab
