@@ -1,4 +1,4 @@
 installdir = $(datadir)/meta/
 
-dist_install_DATA = plugin_shootyuorscreen.xml
+dist_install_DATA = plugin_shootyourscreen.xml
 
