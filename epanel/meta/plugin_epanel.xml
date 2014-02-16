@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="System" />
+	</prerequisites>
+	<info>
+		<author>2boom</author>
+		<name>E Panel</name>
+		<packagename>enigma2-plugin-extensions-epanel</packagename>
+		<shortdescription>E Panel for Open-Pli</shortdescription>
+		<description>E Panel for Open-Pli.</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-extensions-epanel" />
+	</files>
+</default>
