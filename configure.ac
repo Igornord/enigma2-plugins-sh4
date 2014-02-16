@@ -92,7 +92,6 @@ empanel/meta/Makefile
 empanel/po/Makefile
 empanel/src/Makefile
 empanel/src/images/Makefile
-empanel/bin/Makefile
 empanel/script/Makefile
 
 extrachannelselection/Makefile
