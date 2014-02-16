@@ -6,6 +6,7 @@ SUBDIRS = \
 	autovolume \
 	dreamexplorer \
 	empanel \
+	epanel \
 	extrachannelselection \
 	hddmanager \
 	hdmicec \
