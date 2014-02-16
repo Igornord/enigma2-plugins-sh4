@@ -1,11 +1,10 @@
 Package: enigma2-plugin-extensions-epanel
-Version: 5.3-r6
-Description: enigma2-plugin-extensions-epanel by 2boom
+Version: 5.3-r7
+Description: E Panel for OpenPli by 2boom
 Section: base
 Priority: optional
-Maintainer: 2boom
+Maintainer: 2boom (Igornord - sh4)
 License: GPL
-Architecture: all
-OE: enigma2-plugin-extensions-epanel
+Architecture: sh4
 Depends: softcam-support, busybox-cron, ntpdate, update-rc.d
 Homepage: 4bob@ua.fm
