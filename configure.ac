@@ -157,10 +157,16 @@ oscam/init/Makefile
 oscam/keys/Makefile
 oscam/meta/Makefile
 
-
 osdadjustment/Makefile
 osdadjustment/meta/Makefile
 osdadjustment/src/Makefile
+
+quicksignal/Makefile
+quicksignal/src/Makefile
+quicksignal/src/Converter/Makefile
+quicksignal/src/Renderer/Makefile
+quicksignal/src/plugin/Makefile
+quicksignal/src/plugin/icons_quick/Makefile
 
 rucam/Makefile
 rucam/meta/Makefile

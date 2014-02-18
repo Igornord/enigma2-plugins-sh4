@@ -1,0 +1,6 @@
+#!/bin/sh
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/QuickSignal
+rm -f /usr/lib/enigma2/python/Components/Converter/QuickServName2.pyo
+rm -f /usr/lib/enigma2/python/Components/Converter/QuickSignalText.pyo
+rm -f /usr/lib/enigma2/python/Components/Renderer/QuickPicon.pyo
+exit 0

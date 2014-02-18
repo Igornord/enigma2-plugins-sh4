@@ -16,6 +16,7 @@ SUBDIRS = \
 	networkbrowser \
 	oscam \
 	osdadjustment \
+	quicksignal \
 	rucam \
 	settings36 \
 	settings36_4 \
