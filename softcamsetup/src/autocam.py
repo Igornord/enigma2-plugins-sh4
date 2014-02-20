@@ -13,6 +13,10 @@ from Components.config import config
 from Screens.Screen import Screen
 from Screens.ChannelSelection import service_types_radio, service_types_tv, ChannelSelection, ChannelSelectionBase
 from RecordTimer import RecordTimer
+from Screens.ChannelSelection import service_types_radio, service_types_tv, ChannelSelection, ChannelSelectionBase
+OFF = 0
+EDIT_BOUQUET = 1
+EDIT_ALTERNATIVES = 2
 
 def getProviderName(ref):
 	typestr = ref.getData(0) in (2,10) and service_types_radio or service_types_tv
@@ -277,8 +281,8 @@ class AutoCamServiceSetup(ChannelSelectionBase):
 	"""
 	def __init__(self, session, providers=False):
 		self.providers = providers
-		self.bouquet_mark_edit = False
 		ChannelSelectionBase.__init__(self, session)
+		self.bouquet_mark_edit = OFF
 		from Components.ActionMap import ActionMap
 		self["actions"] = ActionMap(["OkCancelActions", "TvRadioActions"], {"cancel": self.close, "ok": self.channelSelected, "keyRadio": self.setModeRadio, "keyTV": self.setModeTv})
 		self.onLayoutFinish.append(self.setModeTv)
@@ -347,12 +351,12 @@ def restartAutocam(self, cam, pip=False):
 
 # ChannelSelection setHistoryPath
 defHistoryPath = None
-def hew_setHistoryPath(self):
+def hew_setHistoryPath(self, doZap=True):
 	if not config.plugins.SoftcamSetup.autocam.enabled.value:
-		defHistoryPath(self)
+		defHistoryPath(self, doZap)
 	else:
 		ref = self.session.nav.getCurrentlyPlayingServiceReference()
-		defHistoryPath(self)
+		defHistoryPath(self, doZap)
 		nref = self.session.nav.getCurrentlyPlayingServiceReference()
 		if nref and self.session.pipshown == False:
 		#if nref:
@@ -382,9 +386,9 @@ def hew_setHistoryPath(self):
 
 # ChannelSelection zap
 defZap = None
-def newZap(self, enable_pipzap = False, preview_zap = False):
+def newZap(self, enable_pipzap=False, preview_zap=False, checkParentalControl=True, ref=None):
 	if not config.plugins.SoftcamSetup.autocam.enabled.value:
-		defZap(self, enable_pipzap, preview_zap)
+		defZap(self, enable_pipzap, preview_zap, checkParentalControl, ref)
 	else:
 		nref = self.getCurrentSelection()
 		isPip = enable_pipzap and self.dopipzap
