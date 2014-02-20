@@ -203,6 +203,12 @@ softcamsetup/po/Makefile
 softcamsetup/src/Makefile
 softcamsetup/src/images/Makefile
 
+spzzaphistory/Makefile
+spzzaphistory/meta/Makefile
+spzzaphistory/po/Makefile
+spzzaphistory/src/Makefile
+spzzaphistory/src/res/Makefile
+
 timeronoff/Makefile
 timeronoff/meta/Makefile
 timeronoff/po/Makefile

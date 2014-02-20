@@ -1,0 +1,7 @@
+Package: enigma2-plugin-extensions-spzzaphistory
+Version: 1.0-r3
+Description: Quick zapping between last viewed channels
+Section: extra
+Priority: optional
+Maintainer: Spaze Team <xx@xxx.xx>
+Architecture: sh4

@@ -1,0 +1,15 @@
+<default>
+	<prerequisites>
+		<tag type="Multimedia" />
+	</prerequisites>
+	<info>
+		<author>spazeTEam</author>
+		<name>spzZapHistory</name>
+		<packagename>enigma2-plugin-extensions-spzzaphistory</packagename>
+		<shortdescription>Show a list of recent zap entries</shortdescription>
+		<description>Quick zapping between last viewed channels</description>
+	</info>
+	<files type="package">
+		<file type="package" name="enigma2-plugin-extensions-spzzaphistory" />
+	</files>
+</default>

@@ -24,6 +24,7 @@ SUBDIRS = \
 	simplesatscan \
 	shootyourscreen \
 	softcamsetup \
+	spzzaphistory \
 	timeronoff \
 	wicardd \
 	vfd_max \
