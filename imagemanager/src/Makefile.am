@@ -1,0 +1,5 @@
+installdir = $(libdir)/enigma2/python/Plugins/Extensios/ImageManager
+install_PYTHON = *.py
+install_DATA = *.sh *.png
+install-data-hook:
+	chmod 0755 $(libdir)/enigma2/python/Plugins/Extensios/ImageManager/*.sh

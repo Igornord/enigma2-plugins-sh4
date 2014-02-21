@@ -121,6 +121,10 @@ hdmicec/meta/Makefile
 hdmicec/Components/Makefile
 hdmicec/Plugin/Makefile
 
+imagemanager/Makefile
+imagemanager/po/Makefile
+imagemanager/src/Makefile
+
 libgisclub/Makefile
 libgisclub/meta/Makefile
 libgisclub/src/Makefile

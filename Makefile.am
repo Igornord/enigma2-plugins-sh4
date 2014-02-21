@@ -10,6 +10,7 @@ SUBDIRS = \
 	extrachannelselection \
 	hddmanager \
 	hdmicec \
+	imagemanager \
 	libgisclub \
 	mgcamd \
 	mediaplayer2 \
