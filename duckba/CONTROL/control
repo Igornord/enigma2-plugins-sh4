@@ -1,0 +1,7 @@
+Package: enigma2-plugin-extensions-duckba
+Version: 20130920-r2
+Description: USB multiboot
+Section: base
+Priority: optional
+Maintainer: Igornord (igorkag@gmail.com)
+Architecture: sh4

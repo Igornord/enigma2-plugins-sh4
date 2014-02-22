@@ -87,6 +87,11 @@ dreamexplorer/meta/Makefile
 dreamexplorer/src/Makefile
 dreamexplorer/src/res/Makefile
 
+duckba/Makefile
+duckba/src/Makefile
+duckba/src/bin/Makefile
+duckba/src/icons/Makefile
+
 empanel/Makefile
 empanel/meta/Makefile
 empanel/po/Makefile

@@ -5,6 +5,7 @@ SUBDIRS = \
 	automaticvolumeadjustment \
 	autovolume \
 	dreamexplorer \
+	duckba \
 	empanel \
 	epanel \
 	extrachannelselection \
