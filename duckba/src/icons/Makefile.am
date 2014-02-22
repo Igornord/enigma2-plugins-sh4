@@ -1,2 +1,2 @@
-installdir = $(libdir)/enigma2/python/Plugins/Extensions/duckBA/icons
+installdir = $(libdir)/enigma2/python/Plugins/Extensions/DuckBA/icons
 install_DATA = *.png
