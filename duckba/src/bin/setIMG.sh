@@ -14,12 +14,7 @@ exit 1
 }
 
 echo "##### setIMG.sh `date` #####" >/hdd/DuckBA.log
-DBApath="/DuckBA"
-
-if [ ! -e /usr/lib/enigma2/python/Plugins/Extensions/DuckBA ]; then
-	echo "Creating pointer to DuckBA in PLI"
-	ln -sf $DBApath /usr/lib/enigma2/python/Plugins/Extensions/DuckBA 
-fi
+DBApath="/usr/lib/enigma2/python/Plugins/Extensions/DuckBA"
 
 [ -f /tmp/dba.ok ] && rm -rf /tmp/dba.ok
 [ -f /tmp/dba.error ] && rm -rf /tmp/dba.error

@@ -11,7 +11,7 @@ touch /tmp/dba.error
 exit 1
 } 
 
-dbaPATH="/DuckBA/bin"
+dbaPATH="/usr/lib/enigma2/python/Plugins/Extensions/DuckBA/bin"
 [ -f /tmp/dba.ok ] && rm -rf /tmp/dba.ok
 [ -f /tmp/dba.error ] && rm -rf /tmp/dba.error
 [ -f /tmp/dba.log ] && rm -rf /tmp/dba.log
