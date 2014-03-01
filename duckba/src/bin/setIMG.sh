@@ -231,21 +231,18 @@ fi
 
 #writing DuckBA plugin if doesn't exists or if it is outdated
 if `mount | grep -q '/tmp/DBA'`; then
-	if [ ! -e "/tmp/DBA/DuckBA" ]; then
+	if [ ! -e "/tmp/DBA/usr/lib/enigma2/python/Plugins/Extensions/DuckBA" ]; then
 		LOG "Writing DuckBA to newly activated fresh image..."
-		cp -rf /DuckBA /tmp/DBA/DuckBA
-		ln -sf /DuckBA /tmp/DBA/usr/lib/enigma2/python/Plugins/Extensions/DuckBA
+		cp -rf /usr/lib/enigma2/python/Plugins/Extensions/DuckBA /tmp/DBA/usr/lib/enigma2/python/Plugins/Extensions/DuckBA
 	elif [ ! -f "/tmp/DBA/usr/lib/enigma2/python/Plugins/Extensions/DuckBA/VERSION" ]; then
 		LOG "Updating DuckBA in newly activated image..."
-		cp -rf /DuckBA /tmp/DBA/DuckBA
-		ln -sf /DuckBA /tmp/DBA/usr/lib/enigma2/python/Plugins/Extensions/DuckBA
+		cp -rf /usr/lib/enigma2/python/Plugins/Extensions/DuckBA /tmp/DBA/usr/lib/enigma2/python/Plugins/Extensions/DuckBA
 	else
-		currenVERSION=`cat /DuckBA/VERSION`
-		dbaVERSION=`cat /tmp/DBA/DuckBA/VERSION`
+		currenVERSION=`cat /usr/lib/enigma2/python/Plugins/Extensions/DuckBA/VERSION`
+		dbaVERSION=`cat /tmp/DBA/usr/lib/enigma2/python/Plugins/Extensions/DuckBA/VERSION`
 		if [ $currenVERSION -gt $dbaVERSION ]; then
 			LOG "Updating DuckBA to newest version in newly activated image..."
-		cp -rf /DuckBA /tmp/DBA/DuckBA
-		ln -sf /DuckBA /tmp/DBA/usr/lib/enigma2/python/Plugins/Extensions/DuckBA
+			cp -rf /usr/lib/enigma2/python/Plugins/Extensions/DuckBA /tmp/DBA/usr/lib/enigma2/python/Plugins/Extensions/DuckBA
 		else
 			LOG "Updating of DuckBA not needed :)"
 		fi
