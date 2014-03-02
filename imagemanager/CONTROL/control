@@ -1,5 +1,5 @@
 Package: enigma2-plugin-extensions-imagemanager
-Version: 1.0
+Version: 1.3
 Description: Backup your Enigma2 to external flash, hdd etc.
 Section: base
 Priority: optional
