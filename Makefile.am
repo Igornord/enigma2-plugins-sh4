@@ -25,6 +25,7 @@ SUBDIRS = \
 	settings4 \
 	simplesatscan \
 	shootyourscreen \
+	shoutcast \
 	softcamsetup \
 	spzzaphistory \
 	timeronoff \

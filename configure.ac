@@ -209,6 +209,11 @@ shootyourscreen/po/Makefile
 shootyourscreen/src/Makefile
 shootyourscreen/src/pic/Makefile
 
+shoutcast/Makefile
+shoutcast/meta/Makefile
+shoutcast/po/Makefile
+shoutcast/src/Makefile
+
 softcamsetup/Makefile
 softcamsetup/meta/Makefile
 softcamsetup/po/Makefile
