@@ -1300,3 +1300,12 @@ msgstr "Выбор пути для скриптов"
 
 msgid "set of utilities for enigma2"
 msgstr "набор утилит для enigma2"
+
+msgid "unavailable"
+msgstr "не доступно"
+
+msgid "undefined"
+msgstr "не определено"
+
+msgid "unknown"
+msgstr "не известно"

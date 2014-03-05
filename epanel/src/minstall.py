@@ -25,6 +25,8 @@ def status_path():
 	status = ''
 	if fileExists("/usr/lib/opkg/status"):
 		status = "/usr/lib/opkg/status"
+	elif fileExists("/usr/lib/ipkg/status"):
+		status = "/usr/lib/ipkg/status"
 	elif fileExists("/var/lib/opkg/status"):
 		status = "/var/lib/opkg/status"
 	elif fileExists("/var/opkg/status"):

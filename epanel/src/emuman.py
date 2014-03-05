@@ -229,23 +229,22 @@ class emuSel4(Screen):
 		if self["menu"].getCurrent()[1] != self.emuversion(self.emutype):
 			self.setTitle(_("Please wait"))
 			self.emuScriptStop()
-		
+
 	def emuScriptStop(self):
 		self.iConsole.ePopen("/etc/init.d/%s stop" % self.emutype, self.emuRemoveStartScript)
-		
+
 	def emuRemoveStartScript(self, result, retval, extra_args):
 		self.iConsole.ePopen("rm -f /etc/init.d/%s" % self.emutype, self.emuRemoveEcmInfo)
-			
-			
+
 	def emuRemoveEcmInfo(self, result, retval, extra_args):
 		self.iConsole.ePopen("rm -f /tmp/ecm.info", self.emuAddStartScript)
-		
+
 	def emuAddStartScript(self, result, retval, extra_args):
 		self.iConsole.ePopen("ln -s /etc/init.d/%s /etc/init.d/%s" % (self.current_item, self.emutype),  self.emuChmodStartScript)
-		
+
 	def emuChmodStartScript(self, result, retval, extra_args):
 		self.iConsole.ePopen("chmod 777 /etc/init.d/%s" %  self.emutype, self.emuScriptStart)
-	
+
 	def emuScriptStart(self, result, retval, extra_args):
 		self.iConsole.ePopen("/etc/init.d/%s start" % self.emutype, self.emuStartEndOperation)
 

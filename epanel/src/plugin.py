@@ -14,12 +14,10 @@ from Components.Label import Label
 from Components.MenuList import MenuList
 from Plugins.Plugin import PluginDescriptor
 from Components.Language import language
-from Tools.Directories import fileExists, resolveFilename, SCOPE_PLUGINS, SCOPE_LANGUAGE
+from Tools.Directories import fileExists, pathExists, resolveFilename, SCOPE_PLUGINS, SCOPE_LANGUAGE
 from Components.config import config, getConfigListEntry, ConfigText, ConfigPassword, ConfigClock, ConfigDateTime, ConfigSelection, ConfigSubsection, ConfigYesNo, configfile, NoSave
 from Components.ConfigList import ConfigListScreen
 from Components.Harddisk import harddiskmanager
-from Components.NimManager import nimmanager
-from Components.About import about
 from os import environ
 import os
 import gettext
@@ -181,7 +179,8 @@ class easyPanel2(Screen):
 		self.session.open(emuman.emuSel4)
 	
 	def infoKey (self):
-		self.session.openWithCallback(self.mList,epanelinfo)
+		#self.session.openWithCallback(self.mList,epanelinfo)
+		self.session.open(epanelinfo)
 ######################################################################################
 class epanelinfo(Screen):
 	skin = """
@@ -269,14 +268,16 @@ class epanelinfo(Screen):
 		self.emuname()
 		
 	def status(self):
-		path = ' '
+		status = ''
 		if fileExists("/usr/lib/opkg/status"):
-			path = "/usr/lib/opkg/status"
+			status = "/usr/lib/opkg/status"
+		elif fileExists("/usr/lib/ipkg/status"):
+			status = "/usr/lib/ipkg/status"
 		elif fileExists("/var/lib/opkg/status"):
-			path = "/var/lib/opkg/status"
+			status = "/var/lib/opkg/status"
 		elif fileExists("/var/opkg/status"):
-			path = "/var/opkg/status"
-		return path
+			status = "/var/opkg/status"
+		return status
 		
 	def emuname(self):
 		nameemu = []
@@ -326,20 +327,60 @@ class epanelinfo(Screen):
 			return open("/proc/stb/info/model").read().strip().upper()
 		return _("unavailable")
 		
+	def getImageTypeString(self):
+		try:
+			if os.path.isfile("/etc/issue"):
+				return open("/etc/issue").read().capitalize().replace('\n', ' ').replace('\l', ' ').strip()
+		except:
+			pass
+		return _("undefined")
+		
+	def getKernelVersionString(self):
+		try:
+			return open("/proc/version").read().split()[2]
+		except:
+			return _("unknown")
+			
+	def getImageVersionString(self):
+		try:
+			if os.path.isfile('/var/lib/opkg/status'):
+				st = os.stat('/var/lib/opkg/status')
+			elif os.path.isfile('/usr/lib/ipkg/status'):
+				st = os.stat('/usr/lib/ipkg/status')
+			elif os.path.isfile('/usr/lib/opkg/status'):
+				st = os.stat('/usr/lib/opkg/status')
+			elif os.path.isfile('/var/opkg/status'):
+				st = os.stat('/var/opkg/status')
+			tm = time.localtime(st.st_mtime)
+			if tm.tm_year >= 2011:
+				return time.strftime("%Y-%m-%d %H:%M:%S", tm)
+		except:
+			pass
+		return _("unavailable")
+		
+	def listnims(self):
+		tuner_name = {'0':'Tuner A:', '1':'Tuner B:', '2':'Tuner C:', '3':'Tuner D:', '4':'Tuner E:', '5':'Tuner F:', '6':'Tuner G:', '7':'Tuner H:'}
+		nimlist = ''
+		if fileExists("/proc/bus/nim_sockets"):
+			for line in open("/proc/bus/nim_sockets"):
+				if 'NIM Socket' in line:
+					nimlist += tuner_name[line.split()[-1].replace(':', '')] + ' '
+				elif 'Type:' in line:
+					nimlist += '(%s)' % line.split()[-1].replace('\n', '').strip() + ' '
+				elif 'Name:' in line:
+					nimlist += '%s' % line.split(':')[1].replace('\n', '').strip() + '\n'
+			return nimlist
+		else:
+			return _("unavailable")
+			
 	def mainInfo(self):
-		listnims = ""
+		#listnims = ""
 		package = 0
 		self["Hardware"].text = self.HardWareType()
-		self["Image"].text = about.getImageTypeString()
-		self["Kernel"].text = about.getKernelVersionString()
-		self["EnigmaVersion"].text = about.getImageVersionString()
-		nims = nimmanager.nimList()
-		for count in range(len(nims)):
-			if count < 4:
-				listnims += "%s\n" % nims[count]
-			else:
-				listnims += "\n"
-		self["nim"].text = listnims
+		self["Image"].text = self.getImageTypeString()
+		self["Kernel"].text = self.getKernelVersionString()
+		self["EnigmaVersion"].text = self.getImageVersionString()
+		self["nim"].text = self.listnims()
 		for line in open(self.status()):
 			if "-dvb-modules" in line and "Package:" in line:
 				package = 1
@@ -515,7 +556,12 @@ class loadEPG():
 		
 	def remove_epgfile(self, result, retval, extra_args):
 		if retval is 0:
-			self.iConsole.ePopen("mkdir -p %sepgtmp && rm -f %sepg.dat" % (config.plugins.epanel.direct.value, config.plugins.epanel.direct.value), self.copy_tmp)
+			if not pathExists('%sepgtmp' % config.plugins.epanel.direct.value):
+				self.iConsole.ePopen("mkdir -p %sepgtmp" % \
+					config.plugins.epanel.direct.value, self.copy_tmp)
+			else:
+				self.iConsole.ePopen("rm -f %sepgtmp\epg.dat.gz" % \
+					config.plugins.epanel.direct.value, self.copy_tmp)
 		
 	def copy_tmp(self, result, retval, extra_args):
 		if retval is 0:

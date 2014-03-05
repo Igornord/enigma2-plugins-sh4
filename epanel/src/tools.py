@@ -57,20 +57,6 @@ def mountp():
 	pathmp.append("/usr/share/enigma2/")
 	return pathmp
 
-def cronpath():
-	path = ''
-	if fileExists("/etc/cron/crontabs/root"):
-		return "/etc/cron/crontabs/root"
-	elif fileExists("/etc/bhcron/root"):
-		return "/etc/bhcron/root"
-	elif fileExists("/etc/crontabs/root"):
-		return "/etc/crontabs/root"
-	elif fileExists("/var/spool/cron/crontabs/root"):
-		return "/var/spool/cron/crontabs/root"
-	elif not fileExists("/etc/cron/crontabs/root") and fileExists("/usr/sbin/crond"):
-		open("/etc/cron/crontabs/root", 'a').close()
-		path = "/etc/cron/crontabs/root"
-	return path
 ######################################################################################
 config.plugins.epanel = ConfigSubsection()
 config.plugins.epanel.scriptpath = ConfigSelection(default = "/usr/script/", choices = [
@@ -908,8 +894,7 @@ class NTPScreen(ConfigListScreen, Screen):
 		Screen.__init__(self, session)
 		self.setTitle(_("NtpTime Updater"))
 		self.iConsole = iConsole()
-		self.in_cron = ''
-		self.path = cronpath()
+		self.path = self.cronpath()
 		self.cfgMenu()
 		self["key_red"] = StaticText(_("Close"))
 		self["key_green"] = StaticText(_("Save"))
@@ -944,6 +929,18 @@ class NTPScreen(ConfigListScreen, Screen):
 	def Manual(self):
 		self.session.open(ManualSetTime)
 		
+	def cronpath(self):
+		path = ''
+		if fileExists("/etc/cron/crontabs"):
+			return "/etc/cron/crontabs/root"
+		elif fileExists("/etc/bhcron"):
+			return "/etc/bhcron/root"
+		elif fileExists("/etc/crontabs"):
+			return "/etc/crontabs/root"
+		elif fileExists("/var/spool/cron/crontabs"):
+			return "/var/spool/cron/crontabs/root"
+		return path
+		
 	def save_values(self):
 		if config.plugins.epanel.TransponderTime.value is '0': 
 			config.misc.useTransponderTime.value = False
@@ -958,12 +955,12 @@ class NTPScreen(ConfigListScreen, Screen):
 		if config.plugins.epanel.cold.value is not '0':
 			if pathExists("/usr/bin/ntpdate"):
 				if config.plugins.epanel.manual.value is not '1':
-					self.iConsole.ePopen("echo -e '#!/bin/sh\n\n[ -x /usr/bin/ntpdate ] && /usr/bin/ntpdate -b -s -u %s\n\nexit 0' >> /etc/rcS.d/S42ntpdate.sh && chmod 755 /etc/rcS.d/S42ntpdate.sh" % \
-						config.plugins.epanel.server.value)
+					self.iConsole.ePopen("echo -e '#!/bin/sh\n\n[ -x /usr/bin/ntpdate ] && /usr/bin/ntpdate -b -s -u %s\n\nexit 0' >> /etc/rcS.d/S42ntpdate.sh" % \
+						config.plugins.epanel.server.value, self.startscript_chmod)
 				else:
-					self.iConsole.ePopen("echo -e '#!/bin/sh\n\n[ -x /usr/bin/ntpdate ] && /usr/bin/ntpdate -b -s -u %s\n\nexit 0' >> /etc/rcS.d/S42ntpdate.sh && chmod 755 /etc/rcS.d/S42ntpdate.sh" % \
-						config.plugins.epanel.manualserver.value)
-		if config.plugins.epanel.onoff.value is '2':
+					self.iConsole.ePopen("echo -e '#!/bin/sh\n\n[ -x /usr/bin/ntpdate ] && /usr/bin/ntpdate -b -s -u %s\n\nexit 0' >> /etc/rcS.d/S42ntpdate.sh" % \
+						config.plugins.epanel.manualserver.value, self.startscript_chmod)
+		elif config.plugins.epanel.onoff.value is '2':
 			if fileExists(self.path):
 				self.iConsole.ePopen("sed -i '/ntp./d' %s" % self.path, self.cron_ntpsetup)
 		else:
@@ -974,16 +971,20 @@ class NTPScreen(ConfigListScreen, Screen):
 	def cron_ntpsetup(self, result, retval, extra_args):
 		if config.plugins.epanel.manual.value is "0":
 			if config.plugins.epanel.time.value is "30":
-				self.in_cron = '*/%s * * * * /usr/bin/ntpdate -s -u %s' % (config.plugins.epanel.time.value, config.plugins.epanel.server.value)
+				self.iConsole.ePopen("echo -e '*/%s * * * * /usr/bin/ntpdate -s -u %s' >> %s" % \
+					(config.plugins.epanel.time.value, config.plugins.epanel.server.value, self.path), self.cron_chmod)
 			else:
-				self.in_cron = '1 */%s * * * /usr/bin/ntpdate -s -u %s' % (config.plugins.epanel.time.value, config.plugins.epanel.server.value)
+				self.iConsole.ePopen("echo -e '1 */%s * * * /usr/bin/ntpdate -s -u %s' >> %s" % \
+					(config.plugins.epanel.time.value, config.plugins.epanel.server.value, self.path), self.cron_chmod)
 		else:
 			if config.plugins.epanel.time.value is "30":
-				self.in_cron = '*/%s * * * * /usr/bin/ntpdate -s -u %s' % (config.plugins.epanel.time.value, config.plugins.epanel.manualserver.value)
+				self.iConsole.ePopen("echo -e '*/%s * * * * /usr/bin/ntpdate -s -u %s' >> %s" % \
+					(config.plugins.epanel.time.value, config.plugins.epanel.manualserver.value, self.path), self.cron_chmod)
 			else:
-				self.in_cron = '1 */%s * * * /usr/bin/ntpdate -s -u %s' % (config.plugins.epanel.time.value, config.plugins.epanel.manualserver.value)
-		with open(self.path, 'a') as cron_root:
-			cron_root.write(self.in_cron)
+				self.iConsole.ePopen("echo -e '1 */%s * * * /usr/bin/ntpdate -s -u %s' >> %s" % \
+					(config.plugins.epanel.time.value, config.plugins.epanel.manualserver.value, self.path), self.cron_chmod)
+						
+	def cron_chmod(self, result, retval, extra_args):
 		self.iConsole.ePopen("chmod 644 %s" % self.path, self.cron_update)
 		
 	def cron_update(self, result, retval, extra_args):
@@ -991,6 +992,13 @@ class NTPScreen(ConfigListScreen, Screen):
 		
 	def cron_update_chmod(self, result, retval, extra_args):
 		self.iConsole.ePopen("chmod 644 %scron.update" % self.path[:-4])
+		self.mbox = self.session.open(MessageBox,(_("configuration is saved")), MessageBox.TYPE_INFO, timeout = 6 )
+		
+	def startscript_chmod(self, result, retval, extra_args):
+		if fileExists(self.path):
+				self.iConsole.ePopen("sed -i '/ntp./d' %s" % self.path)
+		if fileExists("/etc/rcS.d/S42ntpdate.sh"):
+			self.iConsole.ePopen("chmod 755 /etc/rcS.d/S42ntpdate.sh")
 		self.mbox = self.session.open(MessageBox,(_("configuration is saved")), MessageBox.TYPE_INFO, timeout = 6 )
 ################################################################################
 	def UpdateNow(self):
@@ -1648,7 +1656,7 @@ class CrontabMan(Screen):
 		self.session = session
 		Screen.__init__(self, session)
 		self.iConsole = iConsole()
-		self.path = cronpath()
+		self.path = self.cronpath()
 		self.setTitle(_("CtronTab Manager - %s") % self.path)
 		self["shortcuts"] = ActionMap(["ShortcutActions", "WizardActions"],
 
@@ -1666,6 +1674,18 @@ class CrontabMan(Screen):
 		self.list = []
 		self["menu"] = List(self.list)
 		self.cMenu()
+		
+	def cronpath(self):
+		path = ''
+		if fileExists("/etc/cron/crontabs"):
+			return "/etc/cron/crontabs/root"
+		elif fileExists("/etc/bhcron"):
+			return "/etc/bhcron/root"
+		elif fileExists("/etc/crontabs"):
+			return "/etc/crontabs/root"
+		elif fileExists("/var/spool/cron/crontabs"):
+			return "/var/spool/cron/crontabs/root"
+		return path
 
 	def cMenu(self):
 		self.list = []
@@ -1707,7 +1727,7 @@ class CrontabManAdd(ConfigListScreen, Screen):
 		self.session = session
 		Screen.__init__(self, session)
 		self.iConsole = iConsole()
-		self.path = cronpath()
+		self.path = self.cronpath()
 		self.setTitle(_("add tabs - %s") % self.path)
 		self.list = []
 		self.list.append(getConfigListEntry(_("Min"), config.plugins.epanel.min))
@@ -1732,6 +1752,18 @@ class CrontabManAdd(ConfigListScreen, Screen):
 		for i in self["config"].list:
 			i[1].cancel()
 		self.close()
+		
+	def cronpath(self):
+		path = ''
+		if fileExists("/etc/cron/crontabs"):
+			return "/etc/cron/crontabs/root"
+		elif fileExists("/etc/bhcron"):
+			return "/etc/bhcron/root"
+		elif fileExists("/etc/crontabs"):
+			return "/etc/crontabs/root"
+		elif fileExists("/var/spool/cron/crontabs"):
+			return "/var/spool/cron/crontabs/root"
+		return path
 	
 	def ok(self):
 		everymin = ""
@@ -1795,13 +1827,13 @@ class Info2Screen(Screen):
 		self.close()
 		
 	def infoall(self):
-		self.iConsole.ePopen("free && df -h", self.outinfo)
+		self.iConsole.ePopen("df -h && cat /proc/meminfo", self.outinfo)
 		
 	def outinfo(self, result, retval, extra_args):
 		list = " "
 		if retval is 0:
 			for line in result.splitlines(True):
-				if line.startswith('Filesystem'):
+				if line.startswith('MemTotal'):
 					list += '\n' + line
 				else:
 					list += line
