@@ -30,8 +30,8 @@ SUBDIRS = \
 	spzzaphistory \
 	timeronoff \
 	wicardd \
-	vfd_max \
-	vfd_min
+	vfdmax \
+	vfdmin
 
 metadir = $(datadir)/meta
 meta_DATA = index-enigma2-plugins.xml

@@ -241,14 +241,14 @@ wicardd/src/init/Makefile
 wicardd/src/keys/Makefile
 wicardd/src/script/Makefile
 
-vfd_max/Makefile
-vfd_max/meta/Makefile
-vfd_max/src/Makefile
-vfd_max/src/images/Makefile
+vfdmax/Makefile
+vfdmax/meta/Makefile
+vfdmax/src/Makefile
+vfdmax/src/images/Makefile
 
-vfd_min/Makefile
-vfd_min/meta/Makefile
-vfd_min/src/Makefile
+vfdmin/Makefile
+vfdmin/meta/Makefile
+vfdmin/src/Makefile
 
 
 ])
